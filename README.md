@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/linksplatform/Setters.svg?branch=master)](https://travis-ci.com/linksplatform/Setters)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f095ae6c0742405399a34ad50ec6ab8d)](https://app.codacy.com/app/drakonard/Setters?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Setters&utm_campaign=Badge_Grade_Dashboard)
-[![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/collections.methods/badge)](https://www.codefactor.io/repository/github/linksplatform/collections.methods)
+[![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/setters/badge)](https://www.codefactor.io/repository/github/linksplatform/setters)
 
 # [Setters](https://github.com/linksplatform/Setters)
 
