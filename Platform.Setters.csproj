@@ -25,14 +25,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>
-      Platform.Unsafe dependency updated from 0.0.2 to 0.1.0.
-      Removed duplicate dependency.
-      XML documentation file generation turned on.
-      Travis CI connected.
-      Refactoring, issues fix.
-    </PackageReleaseNotes>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
   </PropertyGroup>
-
 
 </Project>
