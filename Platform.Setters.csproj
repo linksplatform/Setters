@@ -6,7 +6,8 @@
     <AssemblyTitle>Platform.Setters</AssemblyTitle>
     <VersionPrefix>0.0.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">netstandard2.0;net461</TargetFrameworks>
+    <TargetFramework Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFramework>
     <AssemblyName>Platform.Setters</AssemblyName>
     <PackageId>Platform.Setters</PackageId>
     <PackageTags>LinksPlatform;Setters;Setter;SetterBase</PackageTags>
