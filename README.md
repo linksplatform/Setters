@@ -17,7 +17,6 @@ NuGet package: [Platform.Setters](https://www.nuget.org/packages/Platform.Setter
 
 ## Dependent libraries
 *   [Platform.Data](https://github.com/linksplatform/Data)
-*   [Platform.Data.Doublets](https://github.com/linksplatform/Data.Doublets)
 
 ## Mystery files
 *   [.travis.yml](https://github.com/linksplatform/Setters/blob/master/.travis.yml) - Travis CI build configuration.
