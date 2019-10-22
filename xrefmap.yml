@@ -41,40 +41,6 @@ references:
   fullName.vb: Platform.Setters.Setter(Of TResult).Setter
   nameWithType: Setter<TResult>.Setter
   nameWithType.vb: Setter(Of TResult).Setter
-- uid: Platform.Setters.Setter`1.SetAndReturnFalse(`0)
-  name: SetAndReturnFalse(TResult)
-  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1_SetAndReturnFalse__0_
-  commentId: M:Platform.Setters.Setter`1.SetAndReturnFalse(`0)
-  fullName: Platform.Setters.Setter<TResult>.SetAndReturnFalse(TResult)
-  fullName.vb: Platform.Setters.Setter(Of TResult).SetAndReturnFalse(TResult)
-  nameWithType: Setter<TResult>.SetAndReturnFalse(TResult)
-  nameWithType.vb: Setter(Of TResult).SetAndReturnFalse(TResult)
-- uid: Platform.Setters.Setter`1.SetAndReturnFalse*
-  name: SetAndReturnFalse
-  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1_SetAndReturnFalse_
-  commentId: Overload:Platform.Setters.Setter`1.SetAndReturnFalse
-  isSpec: "True"
-  fullName: Platform.Setters.Setter<TResult>.SetAndReturnFalse
-  fullName.vb: Platform.Setters.Setter(Of TResult).SetAndReturnFalse
-  nameWithType: Setter<TResult>.SetAndReturnFalse
-  nameWithType.vb: Setter(Of TResult).SetAndReturnFalse
-- uid: Platform.Setters.Setter`1.SetAndReturnTrue(`0)
-  name: SetAndReturnTrue(TResult)
-  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1_SetAndReturnTrue__0_
-  commentId: M:Platform.Setters.Setter`1.SetAndReturnTrue(`0)
-  fullName: Platform.Setters.Setter<TResult>.SetAndReturnTrue(TResult)
-  fullName.vb: Platform.Setters.Setter(Of TResult).SetAndReturnTrue(TResult)
-  nameWithType: Setter<TResult>.SetAndReturnTrue(TResult)
-  nameWithType.vb: Setter(Of TResult).SetAndReturnTrue(TResult)
-- uid: Platform.Setters.Setter`1.SetAndReturnTrue*
-  name: SetAndReturnTrue
-  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1_SetAndReturnTrue_
-  commentId: Overload:Platform.Setters.Setter`1.SetAndReturnTrue
-  isSpec: "True"
-  fullName: Platform.Setters.Setter<TResult>.SetAndReturnTrue
-  fullName.vb: Platform.Setters.Setter(Of TResult).SetAndReturnTrue
-  nameWithType: Setter<TResult>.SetAndReturnTrue
-  nameWithType.vb: Setter(Of TResult).SetAndReturnTrue
 - uid: Platform.Setters.Setter`2
   name: Setter<TResult, TDecision>
   href: api/Platform.Setters.Setter-2.html
