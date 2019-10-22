@@ -10,6 +10,7 @@ namespace Platform.Setters
         private readonly TDecision _trueValue;
         private readonly TDecision _falseValue;
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : base(defaultValue)
         {
@@ -17,10 +18,13 @@ namespace Platform.Setters
             _falseValue = falseValue;
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, default) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(defaultValue) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() { }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

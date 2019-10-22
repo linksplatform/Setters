@@ -6,7 +6,10 @@ namespace Platform.Setters
 {
     public class Setter<TResult> : Setter<TResult, bool>
     {
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(true, false, defaultValue) { }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() { }
     }
 }

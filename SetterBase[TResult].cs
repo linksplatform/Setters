@@ -11,9 +11,15 @@ namespace Platform.Setters
     public abstract class SetterBase<TResult> : ISetter<TResult>
     {
         protected TResult _result;
+
         public TResult Result => _result;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase() { }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
+
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Set(TResult value) => _result = value;
     }
