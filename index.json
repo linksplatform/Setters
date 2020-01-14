@@ -1,9 +1,4 @@
 {
-  "README.html": {
-    "href": "README.html",
-    "title": "Setters | LinksPlatform's Platform.Setters Library",
-    "keywords": "Setters LinksPlatform's Platform.Setters Class Library. Namespace: Platform.Setters Forked from: LinksPlatform/Helpers/Setters NuGet package: Platform.Setters Documentation PDF file with code for e-readers. Dependent libraries Platform.Data"
-  },
   "api/Platform.Setters.Setter-2.html": {
     "href": "api/Platform.Setters.Setter-2.html",
     "title": "Class Setter<TResult, TDecision> | LinksPlatform's Platform.Setters Library",
@@ -23,5 +18,10 @@
     "href": "api/Platform.Setters.html",
     "title": "Namespace Platform.Setters | LinksPlatform's Platform.Setters Library",
     "keywords": "Namespace Platform.Setters Classes Setter<TResult> Setter<TResult, TDecision> SetterBase<TResult>"
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "Setters | LinksPlatform's Platform.Setters Library",
+    "keywords": "Setters LinksPlatform's Platform.Setters Class Library. Namespace: Platform.Setters Forked from: LinksPlatform/Helpers/Setters NuGet package: Platform.Setters Documentation PDF file with code for e-readers. Dependent libraries Platform.Data"
   }
 }
