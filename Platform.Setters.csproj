@@ -44,7 +44,7 @@ Refactoring, performance optimizations, issues fix.</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Platform.Interfaces" Version="0.2.2" />
+    <PackageReference Include="Platform.Interfaces" Version="0.3.0" />
   </ItemGroup>
 
 </Project>
