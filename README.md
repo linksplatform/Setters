@@ -16,5 +16,8 @@ NuGet package: [Platform.Setters](https://www.nuget.org/packages/Platform.Setter
 ## [Documentation](https://linksplatform.github.io/Setters)
 [PDF file](https://linksplatform.github.io/Setters/Platform.Setters.pdf) with code for e-readers.
 
+## Depend on
+*   [Platform.Interfaces](https://github.com/linksplatform/Interfaces)
+
 ## Dependent libraries
 *   [Platform.Data](https://github.com/linksplatform/Data)
