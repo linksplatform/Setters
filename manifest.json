@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "hAvWvoc9KtZKXAZG1LIFOQ=="
+          "hash": "VHAtlS5Fhe5PJFImv0teBA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.Setter-1.html",
-          "hash": "jWI2hz0UJU3js73OLhxbtw=="
+          "hash": "rNa7YjuYIa1dk2FyHqo8lA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.Setter-2.html",
-          "hash": "yce2WoQ5Gn4q7Ijtedbbaw=="
+          "hash": "tNKIVA0ejXeaQN7DKyFiIg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.SetterBase-1.html",
-          "hash": "zTkgE1rrQHZyc1ZXA5fisQ=="
+          "hash": "nwDccxy2GuRGbWmWdNiEnw=="
         }
       },
       "is_incremental": false,
@@ -111,11 +111,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -124,10 +123,11 @@
           "total_file_count": 1,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
