@@ -10,6 +10,6 @@ namespace Platform.Setters
         public Setter(TResult defaultValue) : base(true, false, defaultValue) { }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public Setter() { }
+        public Setter() : base(true, false) { }
     }
 }
