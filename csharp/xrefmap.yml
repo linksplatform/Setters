@@ -1,3 +1,239 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: Platform.Setters
+  name: Platform.Setters
+  href: api/Platform.Setters.html
+  commentId: N:Platform.Setters
+  fullName: Platform.Setters
+  nameWithType: Platform.Setters
+- uid: Platform.Setters.Setter`1
+  name: Setter<TResult>
+  href: api/Platform.Setters.Setter-1.html
+  commentId: T:Platform.Setters.Setter`1
+  name.vb: Setter(Of TResult)
+  fullName: Platform.Setters.Setter<TResult>
+  fullName.vb: Platform.Setters.Setter(Of TResult)
+  nameWithType: Setter<TResult>
+  nameWithType.vb: Setter(Of TResult)
+- uid: Platform.Setters.Setter`1.#ctor
+  name: Setter()
+  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1__ctor
+  commentId: M:Platform.Setters.Setter`1.#ctor
+  fullName: Platform.Setters.Setter<TResult>.Setter()
+  fullName.vb: Platform.Setters.Setter(Of TResult).Setter()
+  nameWithType: Setter<TResult>.Setter()
+  nameWithType.vb: Setter(Of TResult).Setter()
+- uid: Platform.Setters.Setter`1.#ctor(`0)
+  name: Setter(TResult)
+  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1__ctor__0_
+  commentId: M:Platform.Setters.Setter`1.#ctor(`0)
+  fullName: Platform.Setters.Setter<TResult>.Setter(TResult)
+  fullName.vb: Platform.Setters.Setter(Of TResult).Setter(TResult)
+  nameWithType: Setter<TResult>.Setter(TResult)
+  nameWithType.vb: Setter(Of TResult).Setter(TResult)
+- uid: Platform.Setters.Setter`1.#ctor*
+  name: Setter
+  href: api/Platform.Setters.Setter-1.html#Platform_Setters_Setter_1__ctor_
+  commentId: Overload:Platform.Setters.Setter`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Setters.Setter<TResult>.Setter
+  fullName.vb: Platform.Setters.Setter(Of TResult).Setter
+  nameWithType: Setter<TResult>.Setter
+  nameWithType.vb: Setter(Of TResult).Setter
+- uid: Platform.Setters.Setter`2
+  name: Setter<TResult, TDecision>
+  href: api/Platform.Setters.Setter-2.html
+  commentId: T:Platform.Setters.Setter`2
+  name.vb: Setter(Of TResult, TDecision)
+  fullName: Platform.Setters.Setter<TResult, TDecision>
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision)
+  nameWithType: Setter<TResult, TDecision>
+  nameWithType.vb: Setter(Of TResult, TDecision)
+- uid: Platform.Setters.Setter`2.#ctor
+  name: Setter()
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2__ctor
+  commentId: M:Platform.Setters.Setter`2.#ctor
+  fullName: Platform.Setters.Setter<TResult, TDecision>.Setter()
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).Setter()
+  nameWithType: Setter<TResult, TDecision>.Setter()
+  nameWithType.vb: Setter(Of TResult, TDecision).Setter()
+- uid: Platform.Setters.Setter`2.#ctor(`0)
+  name: Setter(TResult)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2__ctor__0_
+  commentId: M:Platform.Setters.Setter`2.#ctor(`0)
+  fullName: Platform.Setters.Setter<TResult, TDecision>.Setter(TResult)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).Setter(TResult)
+  nameWithType: Setter<TResult, TDecision>.Setter(TResult)
+  nameWithType.vb: Setter(Of TResult, TDecision).Setter(TResult)
+- uid: Platform.Setters.Setter`2.#ctor(`1,`1)
+  name: Setter(TDecision, TDecision)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2__ctor__1__1_
+  commentId: M:Platform.Setters.Setter`2.#ctor(`1,`1)
+  fullName: Platform.Setters.Setter<TResult, TDecision>.Setter(TDecision, TDecision)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).Setter(TDecision, TDecision)
+  nameWithType: Setter<TResult, TDecision>.Setter(TDecision, TDecision)
+  nameWithType.vb: Setter(Of TResult, TDecision).Setter(TDecision, TDecision)
+- uid: Platform.Setters.Setter`2.#ctor(`1,`1,`0)
+  name: Setter(TDecision, TDecision, TResult)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2__ctor__1__1__0_
+  commentId: M:Platform.Setters.Setter`2.#ctor(`1,`1,`0)
+  fullName: Platform.Setters.Setter<TResult, TDecision>.Setter(TDecision, TDecision, TResult)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).Setter(TDecision, TDecision, TResult)
+  nameWithType: Setter<TResult, TDecision>.Setter(TDecision, TDecision, TResult)
+  nameWithType.vb: Setter(Of TResult, TDecision).Setter(TDecision, TDecision, TResult)
+- uid: Platform.Setters.Setter`2.#ctor*
+  name: Setter
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2__ctor_
+  commentId: Overload:Platform.Setters.Setter`2.#ctor
+  isSpec: "True"
+  fullName: Platform.Setters.Setter<TResult, TDecision>.Setter
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).Setter
+  nameWithType: Setter<TResult, TDecision>.Setter
+  nameWithType.vb: Setter(Of TResult, TDecision).Setter
+- uid: Platform.Setters.Setter`2.SetAndReturnFalse(`0)
+  name: SetAndReturnFalse(TResult)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetAndReturnFalse__0_
+  commentId: M:Platform.Setters.Setter`2.SetAndReturnFalse(`0)
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetAndReturnFalse(TResult)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetAndReturnFalse(TResult)
+  nameWithType: Setter<TResult, TDecision>.SetAndReturnFalse(TResult)
+  nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnFalse(TResult)
+- uid: Platform.Setters.Setter`2.SetAndReturnFalse*
+  name: SetAndReturnFalse
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetAndReturnFalse_
+  commentId: Overload:Platform.Setters.Setter`2.SetAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetAndReturnFalse
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetAndReturnFalse
+  nameWithType: Setter<TResult, TDecision>.SetAndReturnFalse
+  nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnFalse
+- uid: Platform.Setters.Setter`2.SetAndReturnTrue(`0)
+  name: SetAndReturnTrue(TResult)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetAndReturnTrue__0_
+  commentId: M:Platform.Setters.Setter`2.SetAndReturnTrue(`0)
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetAndReturnTrue(TResult)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetAndReturnTrue(TResult)
+  nameWithType: Setter<TResult, TDecision>.SetAndReturnTrue(TResult)
+  nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnTrue(TResult)
+- uid: Platform.Setters.Setter`2.SetAndReturnTrue*
+  name: SetAndReturnTrue
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetAndReturnTrue_
+  commentId: Overload:Platform.Setters.Setter`2.SetAndReturnTrue
+  isSpec: "True"
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetAndReturnTrue
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetAndReturnTrue
+  nameWithType: Setter<TResult, TDecision>.SetAndReturnTrue
+  nameWithType.vb: Setter(Of TResult, TDecision).SetAndReturnTrue
+- uid: Platform.Setters.Setter`2.SetFirstAndReturnFalse(System.Collections.Generic.IList{`0})
+  name: SetFirstAndReturnFalse(IList<TResult>)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetFirstAndReturnFalse_System_Collections_Generic_IList__0__
+  commentId: M:Platform.Setters.Setter`2.SetFirstAndReturnFalse(System.Collections.Generic.IList{`0})
+  name.vb: SetFirstAndReturnFalse(IList(Of TResult))
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetFirstAndReturnFalse(System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnFalse(System.Collections.Generic.IList(Of TResult))
+  nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnFalse(IList<TResult>)
+  nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnFalse(IList(Of TResult))
+- uid: Platform.Setters.Setter`2.SetFirstAndReturnFalse*
+  name: SetFirstAndReturnFalse
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetFirstAndReturnFalse_
+  commentId: Overload:Platform.Setters.Setter`2.SetFirstAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetFirstAndReturnFalse
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnFalse
+  nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnFalse
+  nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnFalse
+- uid: Platform.Setters.Setter`2.SetFirstAndReturnTrue(System.Collections.Generic.IList{`0})
+  name: SetFirstAndReturnTrue(IList<TResult>)
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetFirstAndReturnTrue_System_Collections_Generic_IList__0__
+  commentId: M:Platform.Setters.Setter`2.SetFirstAndReturnTrue(System.Collections.Generic.IList{`0})
+  name.vb: SetFirstAndReturnTrue(IList(Of TResult))
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetFirstAndReturnTrue(System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnTrue(System.Collections.Generic.IList(Of TResult))
+  nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnTrue(IList<TResult>)
+  nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnTrue(IList(Of TResult))
+- uid: Platform.Setters.Setter`2.SetFirstAndReturnTrue*
+  name: SetFirstAndReturnTrue
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetFirstAndReturnTrue_
+  commentId: Overload:Platform.Setters.Setter`2.SetFirstAndReturnTrue
+  isSpec: "True"
+  fullName: Platform.Setters.Setter<TResult, TDecision>.SetFirstAndReturnTrue
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnTrue
+  nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnTrue
+  nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnTrue
+- uid: Platform.Setters.SetterBase`1
+  name: SetterBase<TResult>
+  href: api/Platform.Setters.SetterBase-1.html
+  commentId: T:Platform.Setters.SetterBase`1
+  name.vb: SetterBase(Of TResult)
+  fullName: Platform.Setters.SetterBase<TResult>
+  fullName.vb: Platform.Setters.SetterBase(Of TResult)
+  nameWithType: SetterBase<TResult>
+  nameWithType.vb: SetterBase(Of TResult)
+- uid: Platform.Setters.SetterBase`1.#ctor
+  name: SetterBase()
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1__ctor
+  commentId: M:Platform.Setters.SetterBase`1.#ctor
+  fullName: Platform.Setters.SetterBase<TResult>.SetterBase()
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).SetterBase()
+  nameWithType: SetterBase<TResult>.SetterBase()
+  nameWithType.vb: SetterBase(Of TResult).SetterBase()
+- uid: Platform.Setters.SetterBase`1.#ctor(`0)
+  name: SetterBase(TResult)
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1__ctor__0_
+  commentId: M:Platform.Setters.SetterBase`1.#ctor(`0)
+  fullName: Platform.Setters.SetterBase<TResult>.SetterBase(TResult)
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).SetterBase(TResult)
+  nameWithType: SetterBase<TResult>.SetterBase(TResult)
+  nameWithType.vb: SetterBase(Of TResult).SetterBase(TResult)
+- uid: Platform.Setters.SetterBase`1.#ctor*
+  name: SetterBase
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1__ctor_
+  commentId: Overload:Platform.Setters.SetterBase`1.#ctor
+  isSpec: "True"
+  fullName: Platform.Setters.SetterBase<TResult>.SetterBase
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).SetterBase
+  nameWithType: SetterBase<TResult>.SetterBase
+  nameWithType.vb: SetterBase(Of TResult).SetterBase
+- uid: Platform.Setters.SetterBase`1._result
+  name: _result
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1__result
+  commentId: F:Platform.Setters.SetterBase`1._result
+  fullName: Platform.Setters.SetterBase<TResult>._result
+  fullName.vb: Platform.Setters.SetterBase(Of TResult)._result
+  nameWithType: SetterBase<TResult>._result
+  nameWithType.vb: SetterBase(Of TResult)._result
+- uid: Platform.Setters.SetterBase`1.Result
+  name: Result
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1_Result
+  commentId: P:Platform.Setters.SetterBase`1.Result
+  fullName: Platform.Setters.SetterBase<TResult>.Result
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).Result
+  nameWithType: SetterBase<TResult>.Result
+  nameWithType.vb: SetterBase(Of TResult).Result
+- uid: Platform.Setters.SetterBase`1.Result*
+  name: Result
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1_Result_
+  commentId: Overload:Platform.Setters.SetterBase`1.Result
+  isSpec: "True"
+  fullName: Platform.Setters.SetterBase<TResult>.Result
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).Result
+  nameWithType: SetterBase<TResult>.Result
+  nameWithType.vb: SetterBase(Of TResult).Result
+- uid: Platform.Setters.SetterBase`1.Set(`0)
+  name: Set(TResult)
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1_Set__0_
+  commentId: M:Platform.Setters.SetterBase`1.Set(`0)
+  fullName: Platform.Setters.SetterBase<TResult>.Set(TResult)
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).Set(TResult)
+  nameWithType: SetterBase<TResult>.Set(TResult)
+  nameWithType.vb: SetterBase(Of TResult).Set(TResult)
+- uid: Platform.Setters.SetterBase`1.Set*
+  name: Set
+  href: api/Platform.Setters.SetterBase-1.html#Platform_Setters_SetterBase_1_Set_
+  commentId: Overload:Platform.Setters.SetterBase`1.Set
+  isSpec: "True"
+  fullName: Platform.Setters.SetterBase<TResult>.Set
+  fullName.vb: Platform.Setters.SetterBase(Of TResult).Set
+  nameWithType: SetterBase<TResult>.Set
+  nameWithType.vb: SetterBase(Of TResult).Set

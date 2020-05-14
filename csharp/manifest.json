@@ -18,7 +18,67 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "wynaqKz4CniaHGUbzZa+Mg=="
+          "hash": "B8M/j5l/PcEZ/mTJ/3PmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Setters.Setter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Setters.Setter-1.html",
+          "hash": "vGLIpruiKS5KaG9oy/oBuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Setters.Setter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Setters.Setter-2.html",
+          "hash": "v6YHGY2Zr2b2LCBDg1Q6WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Setters.SetterBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Setters.SetterBase-1.html",
+          "hash": "ZruNy02Jq9+R7tt9yrQJPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Setters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Setters.html",
+          "hash": "E6ZQ1POTfIQE4ok9Yo6Riw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "+OYKfmDNlx82wTsHls+YUw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+BBUGo6f4SxciJhRXsbAJA=="
+          "hash": "jca2Ynz74GPVLhWF1CZ1NQ=="
         }
       },
       "is_incremental": false,
@@ -55,6 +115,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
