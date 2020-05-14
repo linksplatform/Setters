@@ -7,14 +7,14 @@
 
 LinksPlatform's Platform.Setters Class Library.
 
-Namespace: [Platform.Setters](https://linksplatform.github.io/Setters/api/Platform.Setters.html)
+Namespace: [Platform.Setters](https://linksplatform.github.io/Setters/csharp/api/Platform.Setters.html)
 
 Forked from: [LinksPlatform/Helpers/Setters](https://github.com/linksplatform/Helpers/tree/e27f7586f8015cad596b6aa3c2df2ac2a3dadb60/Setters)
 
 NuGet package: [Platform.Setters](https://www.nuget.org/packages/Platform.Setters)
 
 ## [Documentation](https://linksplatform.github.io/Setters)
-[PDF file](https://linksplatform.github.io/Setters/Platform.Setters.pdf) with code for e-readers.
+[PDF file](https://linksplatform.github.io/Setters/csharp/Platform.Setters.pdf) with code for e-readers.
 
 ## Depend on
 *   [Platform.Interfaces](https://github.com/linksplatform/Interfaces)
