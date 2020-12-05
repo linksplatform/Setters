@@ -37,6 +37,7 @@ namespace Platform.Setters
         /// <para>Represents a range between minumum and maximum values.</para>
         /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
         /// </summary>
+        /// <param name="minimum"><para>The minimum value of the range.</para><para>Минимальное значение диапазона.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
         
@@ -44,6 +45,7 @@ namespace Platform.Setters
         /// <para>Represents a range between minumum and maximum values.</para>
         /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
         /// </summary>
+        /// <param name="minimum"><para>The minimum value of the range.</para><para>Минимальное значение диапазона.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Set(TResult value) => _result = value;
     }
