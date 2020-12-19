@@ -34,10 +34,10 @@ namespace Platform.Setters
         protected SetterBase() { }
     
         /// <summary>
-        /// <para>Represents a range between minumum and maximum values.</para>
-        /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
+        /// <para>Sets the passed-in default value as the result.</para>
+        /// <para>Устанавливает переданное значение по умолчанию в качестве результирующего.</para>
         /// </summary>
-        /// <param name="minimum"><para>The minimum value of the range.</para><para>Минимальное значение диапазона.</para></param>
+        /// <param name="defaultValue"><para>The result default value.</para><para>Результирующее значение по умолчанию.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
         
