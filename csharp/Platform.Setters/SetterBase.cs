@@ -6,7 +6,7 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base implementation for an installer that sets the passed value as the new state.</para>
+    /// <para>Provides a base implementation for an setter that sets the passed value as the new state.</para>
     /// <para>Предоставляет базовую реализацию для установщика, который устанавливает переданное значение в качестве нового состояния.</para>
     /// </summary>
     /// <remarks>
