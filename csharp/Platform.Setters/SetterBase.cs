@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Предоставляет базовую реализацию для установщика, который устанавливает переданное значение в качестве нового состояния</para>
     /// <para>Provides a base for an installer that sets the passed value as the new state</para>
+    /// <para>Предоставляет базовую реализацию для установщика, который устанавливает переданное значение в качестве нового состояния</para>
     /// </summary>
     /// <remarks>
     /// Must be class, not struct (in order to persist access to Result property value).
