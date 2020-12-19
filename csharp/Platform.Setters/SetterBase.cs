@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents a range between minumum and maximum values.</para>
-    /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
+    /// <para>памагити</para>
+    /// <para>памагити</para>
     /// </summary>
     /// <remarks>
     /// Must be class, not struct (in order to persist access to Result property value).
