@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base implementation for an setter that sets the passed value as the new state.</para>
-    /// <para>Предоставляет базовую реализацию для установщика, который устанавливает переданное значение в качестве нового состояния.</para>
+    /// <para>Provides a base implementation for an installer that sets the passed value as the result value.</para>
+    /// <para>Предоставляет базовую реализацию для установщика, который устанавливает переданное значение в качестве результирующего.</para>
     /// </summary>
     /// <remarks>
     /// Must be class, not struct (in order to persist access to Result property value).
@@ -42,10 +42,10 @@ namespace Platform.Setters
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
         
         /// <summary>
-        /// <para>Sets the value of a specific property in the specified object.</para>
-        /// <para>Устанавливает значение определённого свойства в указанном объекте.</para>
+        /// <para>Sets the passed value as the result.</para>
+        /// <para>Устанавливает переданное значение в качестве результирующего.</para>
         /// </summary>
-        /// <param name="value"><para>The value.</para><para>Значение.</para></param>
+        /// <param name="value"><para>The result value.</para><para>Результирующее значение.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Set(TResult value) => _result = value;
     }
