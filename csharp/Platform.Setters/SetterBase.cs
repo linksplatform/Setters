@@ -34,8 +34,8 @@ namespace Platform.Setters
         protected SetterBase() { }
     
         /// <summary>
-        /// <para>Sets the passed-in default value as the result.</para>
-        /// <para>Устанавливает переданное значение по умолчанию в качестве результирующего.</para>
+        /// <para>Initializes a new instance of the SetterBase class using the passed-in value as the default result.</para>
+        /// <para>Инициализирует новый экземпляр класса SetterBase, используя переданное значение в качестве результирующего по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue"><para>The default result value.</para><para>Результирующее значение по умолчанию.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
