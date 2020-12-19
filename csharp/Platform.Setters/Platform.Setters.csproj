@@ -39,7 +39,7 @@ Added tests.</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Platform.Interfaces" Version="0.3.0" />
+    <PackageReference Include="Platform.Interfaces" Version="0.4.0" />
   </ItemGroup>
 
 </Project>
