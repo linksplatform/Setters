@@ -27,8 +27,8 @@ namespace Platform.Setters
         public TResult Result => _result;
         
         /// <summary>
-        /// <para>Represents a range between minumum and maximum values.</para>
-        /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
+        /// <para>Initializes a new instance of the SetterBase class.</para>
+        /// <para>Инициализирует новый экземпляр класса SetterBase.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase() { }
