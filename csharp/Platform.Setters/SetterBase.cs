@@ -37,7 +37,7 @@ namespace Platform.Setters
         /// <para>Sets the passed-in default value as the result.</para>
         /// <para>Устанавливает переданное значение по умолчанию в качестве результирующего.</para>
         /// </summary>
-        /// <param name="defaultValue"><para>The result default value.</para><para>Результирующее значение по умолчанию.</para></param>
+        /// <param name="defaultValue"><para>The default result value.</para><para>Результирующее значение по умолчанию.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
         
