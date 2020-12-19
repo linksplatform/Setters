@@ -6,7 +6,7 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base implementation for an ыуееук that allows you to set a passed value as the resulting value.</para>
+    /// <para>Provides a base implementation for an setter that allows you to set a passed value as the resulting value.</para>
     /// <para>Предоставляет базовую реализацию для установщика, который позволяет установить переданное значение в качестве результирующего значения.</para>
     /// </summary>
     /// <remarks>
