@@ -45,7 +45,7 @@ namespace Platform.Setters
         /// <para>Sets the value of a specific property in the specified object.</para>
         /// <para>Устанавливает значение определённого свойства в указанном объекте.</para>
         /// </summary>
-        /// <param name="minimum"><para>The minimum value of the range.</para><para>Минимальное значение диапазона.</para></param>
+        /// <param name="value"><para>The value.</para><para>Значение.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Set(TResult value) => _result = value;
     }
