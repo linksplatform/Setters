@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base implementation for an setter that allows you to set a passed value as the resulting value.</para>
-    /// <para>Предоставляет базовую реализацию для установщика, который позволяет установить переданное значение в качестве результирующего значения.</para>
+    /// <para>Represents a base implementation for an setter that allows you to set a passed value as the resulting value.</para>
+    /// <para>Представляет базовую реализацию для установщика, который позволяет установить переданное значение в качестве результирующего значения.</para>
     /// </summary>
     /// <remarks>
     /// Must be class, not struct (in order to persist access to Result property value).
