@@ -21,8 +21,8 @@ namespace Platform.Setters
         protected TResult _result;
         
         /// <summary>
-        /// <para>Represents a range between minumum and maximum values.</para>
-        /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
+        /// <para>Returns result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         public TResult Result => _result;
         
