@@ -15,8 +15,8 @@ namespace Platform.Setters
     public abstract class SetterBase<TResult> : ISetter<TResult>
     {
         /// <summary>
-        /// <para>Represents a range between minumum and maximum values.</para>
-        /// <para>Представляет диапазон между минимальным и максимальным значениями.</para>
+        /// <para>Represents the result value.</para>
+        /// <para>Представляет результирующие значение.</para>
         /// </summary>
         protected TResult _result;
         
