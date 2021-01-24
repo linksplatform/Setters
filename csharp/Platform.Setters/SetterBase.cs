@@ -22,8 +22,8 @@ namespace Platform.Setters
         protected TResult _result;
         
         /// <summary>
-        /// <para>Returns result value.</para>
-        /// <para>Возвращает результирующее значение.</para>
+        /// <para>Gets result value.</para>
+        /// <para>Получает результирующее значение.</para>
         /// </summary>
         public TResult Result => _result;
         
