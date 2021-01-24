@@ -9,7 +9,7 @@ namespace Platform.Setters
     /// <para>Represents a base implementation for an setter that allows you to set a passed value to it as the result value.</para>
     /// <para>Представляет базовую реализацию для установщика, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
     /// </summary>
-    /// <typeparam name="TResult"><para>Type of result value.</para><para>Тип результирующего значения.</para></typeparam>
+    /// <typeparam name="TResult"><para>The type of result value.</para><para>Тип результирующего значения.</para></typeparam>
     /// <remarks>
     /// Must be class, not struct (in order to persist access to Result property value).
     /// </remarks>
