@@ -23,7 +23,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Gets result value.</para>
-        /// <para>Получает результирующее значение.</para>
+        /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         public TResult Result => _result;
         
