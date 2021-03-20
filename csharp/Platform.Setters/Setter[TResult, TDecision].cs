@@ -5,6 +5,14 @@ using System.Runtime.CompilerServices;
 
 namespace Platform.Setters
 {
+    /// <summary>
+    /// <para>Represents a implementation for an setter that allows you to set a passed value to it as the result value.</para>
+    /// <para>Представляет реализацию для установщика, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
+    /// </summary>
+    /// <typeparam name="TResult"><para>The type of result value.</para><para>Тип результирующего значения.</para></typeparam>
+    /// <remarks>
+    /// Must be class, not struct (in order to persist access to Result property value).
+    /// </remarks>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
         private readonly TDecision _trueValue;
