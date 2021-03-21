@@ -17,9 +17,11 @@ namespace Platform.Setters
         private readonly TDecision _falseValue;
 
         /// <summary>
-        /// <para>Gets result value.</para>
-        /// <para>Возвращает результирующее значение.</para>
+        /// <para>Initializes a new instance of the Setter class using the passed-in value as the default result value.</para>
+        /// <para>Инициализирует новый экземпляр класса Setter, используя переданные значения trueValue, falseValue, defaultValue в качестве результирующего по умолчанию.</para>
         /// </summary>
+        /// <param name="defaultValue"><para>The default result value.</para><para>Результирующее значение по умолчанию.</para></param>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : base(defaultValue)
