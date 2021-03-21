@@ -16,6 +16,10 @@ namespace Platform.Setters
         private readonly TDecision _trueValue;
         private readonly TDecision _falseValue;
 
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : base(defaultValue)
@@ -24,36 +28,64 @@ namespace Platform.Setters
             _falseValue = falseValue;
         }
 
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, default) { }
-
+        
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(defaultValue) { }
-
+        
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() { }
-
+        
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnTrue(TResult value)
         {
             _result = value;
             return _trueValue;
         }
-
+        
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnFalse(TResult value)
         {
             _result = value;
             return _falseValue;
         }
-
+        
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnTrue(IList<TResult> list)
         {
             _result = list[0];
             return _trueValue;
         }
-
+        
+        /// <summary>
+        /// <para>Gets result value.</para>
+        /// <para>Возвращает результирующее значение.</para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnFalse(IList<TResult> list)
         {
