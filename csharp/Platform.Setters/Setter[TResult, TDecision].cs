@@ -22,7 +22,6 @@ namespace Platform.Setters
         /// </summary>
         /// <param name="defaultValue"><para>The default result value.</para><para>Результирующее значение по умолчанию.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : base(defaultValue)
         {
