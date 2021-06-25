@@ -1,7 +1,9 @@
-﻿namespace Platform::Setters
+﻿
+namespace Platform::Setters
 {
     template <typename ...> class SetterBase;
-    template <typename TResult> class SetterBase<TResult> : public ISetter<TResult>
+    template <typename TResult>
+    class SetterBase<TResult> : public ISetter<TResult>
     {
         protected: TResult _result = 0;
         
@@ -12,5 +14,11 @@
         protected: SetterBase(TResult defaultValue) { _result = defaultValue; }
         
         public: void Set(TResult value) { _result = value; }
+
+        struct EmptySet{
+            TResult Set(){return{};}
+        };
+
+        static_assert(ISetter<EmptySet, TResult>);
     };
 }
