@@ -2,8 +2,7 @@
 namespace Platform::Setters
 {
     template <typename ...> class SetterBase;
-    template <typename TResult>
-    class SetterBase<TResult> : public ISetter<TResult>
+    template <typename TResult> class SetterBase<TResult> : public ISetter<TResult>
     {
         protected: TResult _result = 0;
         
