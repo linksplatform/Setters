@@ -18,26 +18,28 @@ template <typename TResult, typename TDecision> class Setter<TResult, TDecision>
 
         public: Setter() { }
 
+         using base = SetterBase<TResult>;
+
         public: TDecision SetAndReturnTrue(TResult value)
         {
-            TResult _result = value;
+            base::_result = value;
             return _trueValue;
         }
 
         public: TDecision SetAndReturnFalse(TResult value)
         {
-            TResult _result = value;
+            base::_result = value;
             return _falseValue;
         }
 
-    public: TDecision SetFirstAndReturnTrue(Platform::Interfaces::IList<TResult> auto list)
+    public: TDecision SetFirstAndReturnTrue(Platform::Interfaces::IArray<TResult> auto&& list)
         {
-            TResult _result = list[0];
+            base::_result = list[0];
             return _trueValue;
         }
-    public: TDecision SetFirstAndReturnFalse(Platform::Interfaces::IList<TResult> auto list)
+    public: TDecision SetFirstAndReturnFalse(Platform::Interfaces::IArray<TResult> auto&& list)
         {
-            TResult _result = list[0];
+            base::_result = list[0];
             return _falseValue;
         }
     };
