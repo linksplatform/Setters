@@ -14,21 +14,21 @@ template <typename TResult, typename TDecision> class Setter<TResult, TDecision>
 
         public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, 0) { }
 
-        public: Setter(TResult defaultValue) { }
+        public: Setter(TResult defaultValue) : base(defaultValue) { }
 
         public: Setter() { }
 
-         using base = SetterBase<TResult>;
+        using base = SetterBase<TResult>;
 
         public: TDecision SetAndReturnTrue(TResult value)
         {
-            base::_result = value;
+            base::_result = std::move(value);
             return _trueValue;
         }
 
         public: TDecision SetAndReturnFalse(TResult value)
         {
-            base::_result = value;
+            base::_result = std::move(value);
             return _falseValue;
         }
 
