@@ -1,8 +1,6 @@
 cmake_minimum_required (VERSION 3.19)
 
 project (Platform.Setters)
-message(${CMAKE_BINARY_DIR})
-set(CONAN_DISABLE_CHECK_COMPILER True)
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup(TARGETS)
 
@@ -13,5 +11,5 @@ target_link_libraries(${PROJECT_NAME}.Library INTERFACE CONAN_PKG::platform.inte
 add_executable (${PROJECT_NAME}.Tests ${PROJECT_NAME}.Tests/SetterTests.cpp)
 set_target_properties (${PROJECT_NAME}.Tests PROPERTIES CXX_STANDARD 20)
 
-target_link_libraries(${PROJECT_NAME}.Tests PUBLIC CONAN_PKG::gtest)
+target_link_libraries(${PROJECT_NAME}.Tests PRIVATE CONAN_PKG::gtest)
 target_link_libraries(${PROJECT_NAME}.Tests PUBLIC ${PROJECT_NAME}.Library)
