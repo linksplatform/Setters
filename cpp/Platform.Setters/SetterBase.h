@@ -9,7 +9,7 @@
 
         protected: SetterBase() {}
 
-        protected: SetterBase(TResult defaultValue) { _result = defaultValue; }
+        protected: SetterBase(TResult defaultValue) { _result = std::move(defaultValue); }
 
         public: void Set(TResult value) { _result = std::move(value); }
     };
