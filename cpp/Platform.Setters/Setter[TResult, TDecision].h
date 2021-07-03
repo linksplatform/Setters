@@ -12,7 +12,7 @@
         {
             _trueValue = trueValue;
             _falseValue = falseValue;
-            base::_result = defaultValue;
+            base::_result = std::move(defaultValue);
         }
 
         public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, 0) { }
