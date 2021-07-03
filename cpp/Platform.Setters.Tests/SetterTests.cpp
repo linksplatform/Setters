@@ -36,7 +36,7 @@ namespace Platform::Setters::Tests
 			ASSERT_EQ(2, setter.Result());
 			ASSERT_EQ(1, setter.SetFirstAndReturnTrue(std::to_array<std::int32_t>({3})));
 			ASSERT_EQ(3, setter.Result());
-			ASSERT_EQ(0, setter.SetFirstAndReturnFalse(std::to_array<std::int32_t>({ 4 })));
+			ASSERT_EQ(0, setter.SetFirstAndReturnFalse(std::to_array<std::int32_t>({4})));
 			ASSERT_EQ(4, setter.Result());
 		}
 }
