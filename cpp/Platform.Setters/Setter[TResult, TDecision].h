@@ -1,15 +1,18 @@
 ﻿namespace Platform::Setters
 {
     template <typename ...> class Setter;
-template <typename TResult, typename TDecision> class Setter<TResult, TDecision> : public SetterBase<TResult>
+    template <typename TResult, typename TDecision> class Setter<TResult, TDecision> : public SetterBase<TResult>
     {
         private: TDecision _trueValue = 0;
         private: TDecision _falseValue = 0;
+
+        using base = SetterBase<TResult>;
 
         public: Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
         {
             _trueValue = trueValue;
             _falseValue = falseValue;
+            base::_result = defaultValue;
         }
 
         public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, 0) { }
@@ -17,8 +20,6 @@ template <typename TResult, typename TDecision> class Setter<TResult, TDecision>
         public: Setter(TResult defaultValue) : base(defaultValue) { }
 
         public: Setter() { }
-
-        using base = SetterBase<TResult>;
 
         public: TDecision SetAndReturnTrue(TResult value)
         {
@@ -32,12 +33,12 @@ template <typename TResult, typename TDecision> class Setter<TResult, TDecision>
             return _falseValue;
         }
 
-    public: TDecision SetFirstAndReturnTrue(Platform::Interfaces::IArray<TResult> auto&& list)
+        public: TDecision SetFirstAndReturnTrue(Platform::Interfaces::IArray<TResult> auto&& list)
         {
             base::_result = list[0];
             return _trueValue;
         }
-    public: TDecision SetFirstAndReturnFalse(Platform::Interfaces::IArray<TResult> auto&& list)
+        public: TDecision SetFirstAndReturnFalse(Platform::Interfaces::IArray<TResult> auto&& list)
         {
             base::_result = list[0];
             return _falseValue;

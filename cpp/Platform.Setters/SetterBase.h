@@ -3,14 +3,14 @@
     template <typename ...> class SetterBase;
     template <typename TResult> class SetterBase<TResult>
     {
-    protected: TResult _result {};
+        protected: TResult _result {};
 
-    public: TResult Result() { return _result; }
+        public: TResult Result() { return _result; }
 
-    protected: SetterBase() {}
+        protected: SetterBase() {}
 
-    protected: SetterBase(TResult defaultValue) { _result = defaultValue; }
+        protected: SetterBase(TResult defaultValue) { _result = defaultValue; }
 
-    public: void Set(TResult value) { _result = value; }
+        public: void Set(TResult value) { _result = value; }
     };
 }
