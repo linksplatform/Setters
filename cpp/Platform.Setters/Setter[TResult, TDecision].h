@@ -1,4 +1,4 @@
-﻿namespace Platform::Setters
+namespace Platform::Setters
 {
     template <typename ...> class Setter;
     template <typename TResult, typename TDecision> class Setter<TResult, TDecision> : public SetterBase<TResult>
@@ -12,7 +12,7 @@
         {
             _trueValue = trueValue;
             _falseValue = falseValue;
-            base::_result = std::move(defaultValue);
+            base::_result = defaultValue;
         }
 
         public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, 0) { }
@@ -23,13 +23,13 @@
 
         public: TDecision SetAndReturnTrue(TResult value)
         {
-            base::_result = std::move(value);
+            base::_result = value;
             return _trueValue;
         }
 
         public: TDecision SetAndReturnFalse(TResult value)
         {
-            base::_result = std::move(value);
+            base::_result = value;
             return _falseValue;
         }
 
