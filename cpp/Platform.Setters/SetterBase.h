@@ -7,9 +7,9 @@
 
         public: TResult Result() { return _result; }
 
-        protected: SetterBase() {}
+        protected: SetterBase() {static_assert(std::default_initializable<TResult>);}
 
-        protected: SetterBase(TResult defaultValue) { _result = defaultValue; }
+        protected: explicit SetterBase(TResult defaultValue) { _result = defaultValue; }
 
         public: void Set(TResult value) { _result = value; }
     };

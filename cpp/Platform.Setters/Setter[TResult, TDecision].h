@@ -1,25 +1,26 @@
-namespace Platform::Setters
+﻿namespace Platform::Setters
 {
     template <typename ...> class Setter;
     template <typename TResult, typename TDecision> class Setter<TResult, TDecision> : public SetterBase<TResult>
     {
-        private: TDecision _trueValue = 0;
-        private: TDecision _falseValue = 0;
+        private: TDecision _trueValue {};
+        private: TDecision _falseValue {};
 
         using base = SetterBase<TResult>;
 
         public: Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
+            : _trueValue(trueValue), _falseValue(falseValue), base(defaultValue)
         {
             _trueValue = trueValue;
             _falseValue = falseValue;
             base::_result = defaultValue;
         }
 
-        public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, 0) { }
+        public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, {}) { }
 
-        public: Setter(TResult defaultValue) : base(defaultValue) { }
+        public: explicit Setter(TResult defaultValue) : base(defaultValue) { }
 
-        public: Setter() { }
+        public: Setter() = default;
 
         public: TDecision SetAndReturnTrue(TResult value)
         {
@@ -40,7 +41,7 @@ namespace Platform::Setters
         }
         public: TDecision SetFirstAndReturnFalse(Platform::Interfaces::IArray<TResult> auto&& list)
         {
-            base::_result = list[0];
+            base::_result = std::move(list[0]);
             return _falseValue;
         }
     };
