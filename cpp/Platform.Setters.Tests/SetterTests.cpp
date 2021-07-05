@@ -1,5 +1,6 @@
 ﻿#include <gtest/gtest.h>
 #include <Platform.Setters.h>
+
 namespace Platform::Setters::Tests
 {
     TEST(SettersTests, ParameterlessConstructedSetterTest)
