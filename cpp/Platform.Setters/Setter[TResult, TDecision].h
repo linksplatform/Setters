@@ -34,14 +34,14 @@
             return _falseValue;
         }
 
-        public: TDecision SetFirstAndReturnTrue(Platform::Interfaces::IArray<TResult> auto&& list)
+        public: TDecision SetFirstAndReturnTrue(Interfaces::IArray<TResult> auto&& list)
         {
             base::_result = list[0];
             return _trueValue;
         }
-        public: TDecision SetFirstAndReturnFalse(Platform::Interfaces::IArray<TResult> auto&& list)
+        public: TDecision SetFirstAndReturnFalse(Interfaces::IArray<TResult> auto&& list)
         {
-            base::_result = std::move(list[0]);
+            base::_result = list[0];
             return _falseValue;
         }
     };
