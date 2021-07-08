@@ -11,9 +11,6 @@
         public: Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : _trueValue(trueValue), _falseValue(falseValue), base(defaultValue)
         {
-            _trueValue = trueValue;
-            _falseValue = falseValue;
-            base::_result = defaultValue;
         }
 
         public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, {}) { }
