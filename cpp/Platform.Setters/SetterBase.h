@@ -1,5 +1,6 @@
 ﻿namespace Platform::Setters
 {
+
     template <typename ...> class SetterBase;
     template <typename TResult> class SetterBase<TResult>
     {
@@ -14,5 +15,7 @@
         protected: explicit SetterBase(TResult defaultValue) { _result = defaultValue; }
 
         public: void Set(TResult value) { _result = value; }
+
+        public: ~SetterBase() requires Interfaces::ISetter<decltype(*this), TResult> = default;
     };
 }
