@@ -1,6 +1,5 @@
 ﻿namespace Platform::Setters
 {
-
     template <typename ...> class SetterBase;
     template <typename TResult> class SetterBase<TResult>
     {
