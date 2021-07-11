@@ -3,10 +3,9 @@
     template <typename ...> class Setter;
     template <typename TResult, typename TDecision> class Setter<TResult, TDecision> : public SetterBase<TResult>
     {
+        using base = SetterBase<TResult>;
         private: TDecision _trueValue {};
         private: TDecision _falseValue {};
-
-        using base = SetterBase<TResult>;
 
         public: Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : _trueValue(trueValue), _falseValue(falseValue), base(defaultValue)
