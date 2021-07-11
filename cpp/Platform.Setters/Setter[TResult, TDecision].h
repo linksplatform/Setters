@@ -35,6 +35,7 @@
             base::_result = list[0];
             return _trueValue;
         }
+
         public: TDecision SetFirstAndReturnFalse(Interfaces::IArray<TResult> auto&& list)
         {
             base::_result = list[0];
