@@ -1,16 +1,20 @@
 ﻿namespace Platform::Setters
 {
     template <typename ...> class SetterBase;
-    template <typename TResult> class SetterBase<TResult> : public ISetter<TResult>
+    template <typename TResult> class SetterBase<TResult>
     {
-        protected: TResult _result = 0;
-        
+        static_assert(std::default_initializable<TResult>);
+
+        protected: TResult _result {};
+
         public: TResult Result() { return _result; }
-        
-        protected: SetterBase() { }
-    
-        protected: SetterBase(TResult defaultValue) { _result = defaultValue; }
-        
+
+        protected: SetterBase() = default;
+
+        protected: explicit SetterBase(TResult defaultValue) { _result = defaultValue; }
+
         public: void Set(TResult value) { _result = value; }
+
+        public: ~SetterBase() requires Interfaces::ISetter<decltype(*this), TResult> = default;
     };
 }

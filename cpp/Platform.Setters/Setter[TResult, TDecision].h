@@ -3,43 +3,42 @@
     template <typename ...> class Setter;
     template <typename TResult, typename TDecision> class Setter<TResult, TDecision> : public SetterBase<TResult>
     {
-        private: TDecision _trueValue = 0;
-        private: TDecision _falseValue = 0;
+        using base = SetterBase<TResult>;
+        private: TDecision _trueValue {};
+        private: TDecision _falseValue {};
 
         public: Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
-            : SetterBase(defaultValue)
+            : _trueValue(trueValue), _falseValue(falseValue), base(defaultValue)
         {
-            _trueValue = trueValue;
-            _falseValue = falseValue;
         }
 
-        public: Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, 0) { }
+        public: Setter(TDecision trueValue, TDecision falseValue) : Setter(trueValue, falseValue, {}) { }
 
-        public: Setter(TResult defaultValue) : SetterBase(defaultValue) { }
+        public: explicit Setter(TResult defaultValue) : base(defaultValue) { }
 
-        public: Setter() { }
+        public: Setter() = default;
 
         public: TDecision SetAndReturnTrue(TResult value)
         {
-            _result = value;
+            base::_result = value;
             return _trueValue;
         }
 
         public: TDecision SetAndReturnFalse(TResult value)
         {
-            _result = value;
+            base::_result = value;
             return _falseValue;
         }
 
-        public: TDecision SetFirstAndReturnTrue(IList<TResult> &list)
+        public: TDecision SetFirstAndReturnTrue(Interfaces::IArray<TResult> auto&& list)
         {
-            _result = list[0];
+            base::_result = list[0];
             return _trueValue;
         }
 
-        public: TDecision SetFirstAndReturnFalse(IList<TResult> &list)
+        public: TDecision SetFirstAndReturnFalse(Interfaces::IArray<TResult> auto&& list)
         {
-            _result = list[0];
+            base::_result = list[0];
             return _falseValue;
         }
     };
