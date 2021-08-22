@@ -2,8 +2,20 @@ using Xunit;
 
 namespace Platform.Setters.Tests
 {
+    /// <summary>
+    /// <para>
+    /// Represents the setter tests.
+    /// </para>
+    /// <para></para>
+    /// </summary>
     public class SetterTests
     {
+        /// <summary>
+        /// <para>
+        /// Tests that parameterless constructed setter test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public void ParameterlessConstructedSetterTest()
         {
@@ -11,6 +23,12 @@ namespace Platform.Setters.Tests
             Assert.Equal(default, setter.Result);
         }
 
+        /// <summary>
+        /// <para>
+        /// Tests that constructed with default value setter test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public void ConstructedWithDefaultValueSetterTest()
         {
@@ -18,6 +36,12 @@ namespace Platform.Setters.Tests
             Assert.Equal(9, setter.Result);
         }
 
+        /// <summary>
+        /// <para>
+        /// Tests that methods with boolean return type test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public void MethodsWithBooleanReturnTypeTest()
         {
@@ -32,6 +56,12 @@ namespace Platform.Setters.Tests
             Assert.Equal(4, setter.Result);
         }
 
+        /// <summary>
+        /// <para>
+        /// Tests that methods with integer return type test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public void MethodsWithIntegerReturnTypeTest()
         {
