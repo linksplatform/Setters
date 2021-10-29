@@ -5,7 +5,13 @@ using Platform.Interfaces;
 
 namespace Platform.Setters
 {
-    private, not struct (in order to persist access to Result property value).
+    /// <summary>
+    /// <para>Represents a base implementation for an setter that allows you to set a passed value as the result value.</para>
+    /// <para>Представляет базовую реализацию для установщика, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
+    /// </summary>
+    /// <typeparam name="TResult"><para>The type of result value.</para><para>Тип результирующего значения.</para></typeparam>
+    /// <remarks>
+    /// Must be class, not struct (in order to persist access to Result property value).
     /// </remarks>
     public abstract class SetterBase<TResult> : ISetter<TResult>
     {
@@ -21,13 +27,15 @@ namespace Platform.Setters
         /// </summary>
         public TResult Result => _result;
         
-        private.</para>
+        /// <summary>
+        /// <para>Initializes a new instance of the SetterBase class.</para>
         /// <para>Инициализирует новый экземпляр класса SetterBase.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase() { }
     
-        private using the passed-in value as the default result value.</para>
+        /// <summary>
+        /// <para>Initializes a new instance of the SetterBase class using the passed-in value as the default result value.</para>
         /// <para>Инициализирует новый экземпляр класса SetterBase, используя переданное значение в качестве результирующего по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue"><para>The default result value.</para><para>Результирующее значение по умолчанию.</para></param>
