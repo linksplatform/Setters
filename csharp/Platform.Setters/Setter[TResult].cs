@@ -26,7 +26,7 @@ namespace Platform.Setters
         /// <param name="defaultValue">
         /// <para>A default value.</para>
         /// <para>
-        /// Дефолтное значение.
+        /// Значение по умолчанию.
         /// </para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
