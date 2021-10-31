@@ -46,28 +46,28 @@ namespace Platform.Setters
         }
 
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, default) { }
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(defaultValue) { }
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() { }
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -78,7 +78,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -89,7 +89,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -100,7 +100,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Returns result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
