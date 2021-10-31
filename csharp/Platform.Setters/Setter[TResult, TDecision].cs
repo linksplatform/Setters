@@ -17,14 +17,18 @@ namespace Platform.Setters
         /// <para>
         /// The true value.
         /// </para>
-        /// <para></para>
+        /// <para>
+        /// Значение "истина".
+        /// </para>
         /// </summary>
         private readonly TDecision _trueValue;
         /// <summary>
         /// <para>
         /// The false value.
         /// </para>
-        /// <para></para>
+        /// <para>
+        /// Значение "ложь".
+        /// </para>
         /// </summary>
         private readonly TDecision _falseValue;
 

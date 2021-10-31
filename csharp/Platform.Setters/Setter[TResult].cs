@@ -8,7 +8,9 @@ namespace Platform.Setters
     /// <para>
     /// Represents the setter.
     /// </para>
-    /// <para></para>
+    /// <para>
+    /// Представляет установщик.
+    /// </para>
     /// </summary>
     /// <seealso cref="Setter{TResult, bool}"/>
     public class Setter<TResult> : Setter<TResult, bool>
@@ -17,11 +19,15 @@ namespace Platform.Setters
         /// <para>
         /// Initializes a new <see cref="Setter"/> instance.
         /// </para>
-        /// <para></para>
+        /// <para>
+        /// Инициализирует новый экземпляр <see cref="Setter"/>.
+        /// </para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default value.</para>
-        /// <para></para>
+        /// <para>
+        /// Дефолтное значение.
+        /// </para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(true, false, defaultValue) { }
@@ -30,7 +36,9 @@ namespace Platform.Setters
         /// <para>
         /// Initializes a new <see cref="Setter"/> instance.
         /// </para>
-        /// <para></para>
+        /// <para>
+        /// Инициализирует новый экземпляр <see cref="Setter"/>.
+        /// </para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() : base(true, false) { }
