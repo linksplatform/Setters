@@ -13,19 +13,7 @@ namespace Platform.Setters
     /// <typeparam name="TDecision"><para>The type of value which will be used to make the decision.</para><para>Тип значения на основе которого будет приниматься решение.</para></typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
-        /// <summary>
-        /// <para>
-        /// The true value.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private readonly TDecision _trueValue;
-        /// <summary>
-        /// <para>
-        /// The false value.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private readonly TDecision _falseValue;
 
         /// <summary>
