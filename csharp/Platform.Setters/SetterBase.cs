@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base implementation for an setter that allows you to set a passed value as the result value.</para>
-    /// <para>Предоставляет базовую реализацию для установщика, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
+    /// <para>Provides a base class that allows you to set a passed value as the result value.</para>
+    /// <para>Предоставляет базовый класс, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
     /// </summary>
     /// <typeparam name="TResult">
     /// <para>The type of result value.</para>
@@ -43,7 +43,7 @@ namespace Platform.Setters
         /// <para>Инициализирует новый экземпляр класса SetterBase, используя переданное значение в качестве результирующего по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue">
-        /// <para>The default result value.</para>
+        /// <para>A default result value.</para>
         /// <para>Результирующее значение по умолчанию.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -54,7 +54,7 @@ namespace Platform.Setters
         /// <para>Устанавливает переданное значение в качестве результирующего.</para>
         /// </summary>
         /// <param name="value">
-        /// <para>The result value.</para>
+        /// <para>A result value.</para>
         /// <para>Результирующее значение.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
