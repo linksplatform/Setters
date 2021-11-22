@@ -12,7 +12,7 @@ namespace Platform.Setters
     public class Setter<TResult> : Setter<TResult, bool>
     {
         /// <summary>
-        /// <para>Initializes a new instance of the Setter class.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class.</para>
         /// <para>Инициализирует новый экземпляр класса Setter.</para>
         /// </summary>
         /// <param name="defaultValue">
@@ -23,7 +23,7 @@ namespace Platform.Setters
         public Setter(TResult defaultValue) : base(true, false, defaultValue) { }
 
         /// <summary>
-        /// <para>Initializes a new instance of the Setter class.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class.</para>
         /// <para>Инициализирует новый экземпляр класса Setter.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

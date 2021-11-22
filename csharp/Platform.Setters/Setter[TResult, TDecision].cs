@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents implementation for an setter that allows you to set a passed value as the result value. This setter implementation has additional methods that, simultaneously with setting the result value, return <typeparamref name="TDecision"/> values indicating true or false.</para>
+    /// <para>Represents implementation for an setter that allows to set a passed value as the result value. This setter implementation has additional methods that, simultaneously with setting the result value, return <typeparamref name="TDecision"/> values indicating true or false.</para>
     /// <para>Представляет реализацию для установщика, который позволяет установить переданное ему значение в качестве результирующего значения. В этой реализации установщика есть дополнительные методы, которые одновременно с установкой результирующего значения возвращают значения типа <typeparamref name="TDecision"/>, обозначающие истину или ложь.</para>
     /// </summary>
     /// <typeparam name="TResult">
@@ -48,28 +48,28 @@ namespace Platform.Setters
         }
 
         /// <summary>
-        /// <para>Initializes a new instance of the Setter class.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class.</para>
         /// <para>Иницаилизирует новый экземпляр класса Setter.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, default) { }
         
         /// <summary>
-        /// <para>Initializes a new instance of the Setter class with the <paramref name="defaultValue"/>.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class with the <paramref name="defaultValue"/>.</para>
         /// <para>Инициализирует новый экземпляр класса Setter, со значением <paramref name="defaultValue"/> в качестве результирующего по умолчанию.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(defaultValue) { }
         
         /// <summary>
-        /// <para>Initializes a new instance of the Setter class.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class.</para>
         /// <para>Инициализирует новый экземпляр класса Setter.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() { }
         
         /// <summary>
-        /// <para>Assigns the <paramref name="value"/> to the result and returns <see langword="true value"/>.</para>
+        /// <para>Assigns the <paramref name="value"/> to the result and returns true value.</para>
         /// <para>Присваивает результату значение <paramref name="value"/> и возвращает <see langword="true value"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -80,7 +80,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Assigns the <paramref name="value"/> to the result and returns <see langword="false value"/>.</para>
+        /// <para>Assigns the <paramref name="value"/> to the result and returns false value.</para>
         /// <para>Присваивает результату значение <paramref name="value"/> и возвращает <see langword="false value"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -91,7 +91,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Assigns the <paramref name="list[0]"/> to the result and returns <see langword="true value"/>.</para>
+        /// <para>Assigns the <paramref name="list[0]"/> to the result and returns true value.</para>
         /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает <see langword="true value"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -102,7 +102,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Assigns the <paramref name="list[0]"/> to the result and returns <see langword="false"/>.</para>
+        /// <para>Assigns the <paramref name="list[0]"/> to the result and returns false value.</para>
         /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает <see langword="false"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

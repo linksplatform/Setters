@@ -6,11 +6,11 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base class that allows you to set a passed value as the result value.</para>
+    /// <para>Provides a base class that allows to set a passed value as the result value.</para>
     /// <para>Предоставляет базовый класс, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
     /// </summary>
     /// <typeparam name="TResult">
-    /// <para>The type of result value.</para>
+    /// <para>The type of a result value.</para>
     /// <para>Тип результирующего значения.</para>
     /// </typeparam>
     /// <remarks>
@@ -50,7 +50,7 @@ namespace Platform.Setters
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
         
         /// <summary>
-        /// <para>Sets the passed value as the result.</para>
+        /// <para>Sets the <paramref name="value"/> as the result.</para>
         /// <para>Устанавливает переданное значение в качестве результирующего.</para>
         /// </summary>
         /// <param name="value">
