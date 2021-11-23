@@ -19,7 +19,6 @@ namespace Platform.Setters
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
-    
         /// <summary>
         /// <para>A true value.</para>
         /// <para>Значение "истина".</para>
