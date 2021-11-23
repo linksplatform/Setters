@@ -33,14 +33,14 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="SetterBase"/> class.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase() { }
     
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="SetterBase{TResult}"/> class using the <paramref name="defaultValue"/> as the default result.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>, используя <paramref name="defaultValue"/> в качестве результата.</para>
+        /// <para>Initializes a new instance of the <see cref="SetterBase"/> class using the <paramref name="defaultValue"/> as the default result.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase"/>, используя <paramref name="defaultValue"/> в качестве результата.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
