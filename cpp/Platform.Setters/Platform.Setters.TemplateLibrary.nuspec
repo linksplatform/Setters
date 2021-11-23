@@ -22,12 +22,4 @@
       </group>
     </dependencies>
   </metadata>
-  <files>
-    <file src="icon.png" target="images/icon.png" />
-    <file src="Platform.Setters.TemplateLibrary.targets" target="build\native\Platform.Setters.TemplateLibrary.targets" />
-    <file src="Platform.Setters.h" target="lib\native\include\Platform.Setters.h" />
-    <file src="Setter[TResult, TDecision].h" target="lib\native\include\Setter[TResult, TDecision].h" />
-    <file src="Setter[TResult].h" target="lib\native\include\Setter[TResult].h" />
-    <file src="SetterBase.h" target="lib\native\include\SetterBase.h" />
-  </files>
 </package>
