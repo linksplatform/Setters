@@ -32,7 +32,7 @@ namespace Platform.Setters
         public TResult Result => _result;
         
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="SetterBase{TResult}"/> class.</para>
+        /// <para>Initializes a new instance of the <see cref="SetterBase"/> class.</para>
         /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
