@@ -20,27 +20,27 @@ namespace Platform.Setters
     public abstract class SetterBase<TResult> : ISetter<TResult>
     {
         /// <summary>
-        /// <para>Represents the result value.</para>
+        /// <para>Represents a result value.</para>
         /// <para>Представляет результирующие значение.</para>
         /// </summary>
         protected TResult _result;
         
         /// <summary>
-        /// <para>Gets result value.</para>
+        /// <para>Gets a result value.</para>
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         public TResult Result => _result;
         
         /// <summary>
-        /// <para>Initializes a new instance of the SetterBase class.</para>
-        /// <para>Инициализирует новый экземпляр класса SetterBase.</para>
+        /// <para>Initializes a new instance of the <see cref="SetterBase{TResult}"/> class.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected SetterBase() { }
     
         /// <summary>
-        /// <para>Initializes a new instance of the SetterBase class using the passed-in value as the default result value.</para>
-        /// <para>Инициализирует новый экземпляр класса SetterBase, используя переданное значение в качестве результирующего по умолчанию.</para>
+        /// <para>Initializes a new instance of the <see cref="SetterBase{TResult}"/> class using the passed-in value as the default result value.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>, используя переданное значение в качестве результирующего по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
@@ -50,7 +50,7 @@ namespace Platform.Setters
         protected SetterBase(TResult defaultValue) => _result = defaultValue;
         
         /// <summary>
-        /// <para>Sets the <paramref name="value"/> as the result.</para>
+        /// <para>Sets a <paramref name="value"/> as the result.</para>
         /// <para>Устанавливает переданное значение в качестве результирующего.</para>
         /// </summary>
         /// <param name="value">

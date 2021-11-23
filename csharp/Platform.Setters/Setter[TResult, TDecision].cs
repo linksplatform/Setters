@@ -32,8 +32,8 @@ namespace Platform.Setters
         private readonly TDecision _falseValue;
 
         /// <summary>
-        /// <para>Initializes a new instance of the Setter class using the passed-in value as the default result value.</para>
-        /// <para>Инициализирует новый экземпляр класса Setter, используя переданные значения trueValue, falseValue, defaultValue в качестве результирующего по умолчанию.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in value as the default result value.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения trueValue, falseValue, defaultValue в качестве результирующего по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
@@ -49,21 +49,21 @@ namespace Platform.Setters
 
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class.</para>
-        /// <para>Иницаилизирует новый экземпляр класса Setter.</para>
+        /// <para>Иницаилизирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, default) { }
         
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class with the <paramref name="defaultValue"/>.</para>
-        /// <para>Инициализирует новый экземпляр класса Setter, со значением <paramref name="defaultValue"/> в качестве результирующего по умолчанию.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, со значением <paramref name="defaultValue"/> в качестве результирующего по умолчанию.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(defaultValue) { }
         
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class.</para>
-        /// <para>Инициализирует новый экземпляр класса Setter.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() { }

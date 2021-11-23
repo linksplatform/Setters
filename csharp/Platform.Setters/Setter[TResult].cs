@@ -13,7 +13,7 @@ namespace Platform.Setters
     {
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class.</para>
-        /// <para>Инициализирует новый экземпляр класса Setter.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult}"/>.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default value.</para>
@@ -24,7 +24,7 @@ namespace Platform.Setters
 
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class.</para>
-        /// <para>Инициализирует новый экземпляр класса Setter.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult}"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() : base(true, false) { }
