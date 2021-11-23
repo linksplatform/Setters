@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base class that allows to set a passed value as the result value.</para>
-    /// <para>Предоставляет базовый класс, который позволяет установить переданное ему значение в качестве результирующего значения.</para>
+    /// <para>Provides a base class that allows to set a passed value as the result.</para>
+    /// <para>Предоставляет базовый класс, который позволяет установить переданное ему значение в качестве результата.</para>
     /// </summary>
     /// <typeparam name="TResult">
     /// <para>The type of a result value.</para>
@@ -39,8 +39,8 @@ namespace Platform.Setters
         protected SetterBase() { }
     
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="SetterBase{TResult}"/> class using the passed-in value as the default result value.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>, используя переданное значение в качестве результирующего по умолчанию.</para>
+        /// <para>Initializes a new instance of the <see cref="SetterBase{TResult}"/> class using the <paramref name="defaultValue"/> as the default result.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase{TResult}"/>, используя <paramref name="defaultValue"/> в качестве результата.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
@@ -51,7 +51,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Sets a <paramref name="value"/> as the result.</para>
-        /// <para>Устанавливает переданное значение в качестве результирующего.</para>
+        /// <para>Устанавливает <paramref name="value"/> в качестве результата.</para>
         /// </summary>
         /// <param name="value">
         /// <para>A result value.</para>

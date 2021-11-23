@@ -6,8 +6,8 @@ using System.Runtime.CompilerServices;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents implementation for an setter that allows to set a passed value as the result value. This setter implementation has additional methods that, simultaneously with setting the result value, return <typeparamref name="TDecision"/> values indicating true or false.</para>
-    /// <para>Представляет реализацию для установщика, который позволяет установить переданное ему значение в качестве результирующего значения. В этой реализации установщика есть дополнительные методы, которые одновременно с установкой результирующего значения возвращают значения типа <typeparamref name="TDecision"/>, обозначающие истину или ложь.</para>
+    /// <para>Represents implementation for an setter that allows to set a passed value as the result. This setter implementation has additional methods that, simultaneously with setting the result, return <typeparamref name="TDecision"/> values indicating true or false.</para>
+    /// <para>Представляет реализацию для установщика, который позволяет установить переданное ему значение в качестве результата. В этой реализации установщика есть дополнительные методы, которые одновременно с установкой результата возвращают значения типа <typeparamref name="TDecision"/>, обозначающие истину или ложь.</para>
     /// </summary>
     /// <typeparam name="TResult">
     /// <para>The type of a result value.</para>
@@ -32,8 +32,8 @@ namespace Platform.Setters
         private readonly TDecision _falseValue;
 
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in value as the default result value.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения trueValue, falseValue, defaultValue в качестве результирующего по умолчанию.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in value as the default result.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения trueValue, falseValue, defaultValue в качестве результата по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
@@ -56,7 +56,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class with the <paramref name="defaultValue"/>.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, со значением <paramref name="defaultValue"/> в качестве результирующего по умолчанию.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, со значением <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(defaultValue) { }
@@ -70,7 +70,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Assigns the <paramref name="value"/> to the result and returns true value.</para>
-        /// <para>Присваивает результату значение <paramref name="value"/> и возвращает <see langword="true value"/>.</para>
+        /// <para>Присваивает результату значение <paramref name="value"/> и возвращает правда-значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnTrue(TResult value)
@@ -81,7 +81,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Assigns the <paramref name="value"/> to the result and returns false value.</para>
-        /// <para>Присваивает результату значение <paramref name="value"/> и возвращает <see langword="false value"/>.</para>
+        /// <para>Присваивает результату значение <paramref name="value"/> и возвращает ложь-значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnFalse(TResult value)
@@ -92,7 +92,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Assigns the <paramref name="list[0]"/> to the result and returns true value.</para>
-        /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает <see langword="true value"/>.</para>
+        /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает правда-значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnTrue(IList<TResult> list)
@@ -103,7 +103,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Assigns the <paramref name="list[0]"/> to the result and returns false value.</para>
-        /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает <see langword="false"/>.</para>
+        /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает ложь-значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnFalse(IList<TResult> list)
