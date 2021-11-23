@@ -70,7 +70,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Assigns the <paramref name="value"/> to the result and returns true value.</para>
-        /// <para>Присваивает результату значение <paramref name="value"/> и возвращает правда-значение.</para>
+        /// <para>Присваивает результату значение <paramref name="value"/> и возвращает истина-значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnTrue(TResult value)
@@ -92,7 +92,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Assigns the <paramref name="list[0]"/> to the result and returns true value.</para>
-        /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает правда-значение.</para>
+        /// <para>Присваивает результату значение <paramref name="list[0]"/> и возвращает истина-значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnTrue(IList<TResult> list)
