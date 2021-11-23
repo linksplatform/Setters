@@ -55,7 +55,7 @@ namespace Platform.Setters
         public Setter(TDecision trueValue, TDecision falseValue) : this(trueValue, falseValue, default) { }
         
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class with the <paramref name="defaultValue"/> as result.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class with the <paramref name="defaultValue"/> as a result.</para>
         /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, со значением <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
