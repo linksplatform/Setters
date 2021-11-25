@@ -6,8 +6,8 @@ using Platform.Interfaces;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Provides a base class that allows to set a passed value as the result.</para>
-    /// <para>Предоставляет базовый класс, который позволяет установить переданное ему значение в качестве результата.</para>
+    /// <para>Represents a base implementation for a setter that allows to set a passed value as the result.</para>
+    /// <para>Представляет базовую реализацию для установщика, который позволяет установить переданное ему значение в качестве результата.</para>
     /// </summary>
     /// <typeparam name="TResult">
     /// <para>The type of a result value.</para>
@@ -40,7 +40,7 @@ namespace Platform.Setters
     
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="SetterBase"/> class using the <paramref name="defaultValue"/> as the default result.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase"/>, используя <paramref name="defaultValue"/> в качестве результата.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="SetterBase"/>, используя <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
