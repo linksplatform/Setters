@@ -8,6 +8,10 @@ namespace Platform.Setters
     /// <para>Represents the <see cref="Setter{TResult}"/>.</para>
     /// <para>Представляет <see cref="Setter{TResult}"/>.</para>
     /// </summary>
+    /// <typeparam name="TResult">
+    /// <para>The type of a result value.</para>
+    /// <para>Тип результирующего значения.</para>
+    /// </typeparam>
     /// <seealso cref="Setter{TResult, bool}"/>
     public class Setter<TResult> : Setter<TResult, bool>
     {
