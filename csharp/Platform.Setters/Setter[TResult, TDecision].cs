@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents implementation for an setter that allows to set a passed value as the result. This setter implementation has additional methods that, simultaneously with setting the result, return <typeparamref name="TDecision"/> values indicating true or false.</para>
+    /// <para>Represents a setter that allows to set a passed value as the result. This setter variant has additional methods that, simultaneously with setting the result, return <typeparamref name="TDecision"/> values indicating true or false.</para>
     /// <para>Представляет реализацию для установщика, который позволяет установить переданное ему значение в качестве результата. В этой реализации установщика есть дополнительные методы, которые одновременно с установкой результата возвращают значения типа <typeparamref name="TDecision"/>, обозначающие истину или ложь.</para>
     /// </summary>
     /// <typeparam name="TResult">
