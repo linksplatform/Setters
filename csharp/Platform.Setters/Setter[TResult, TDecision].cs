@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents implementation for an setter that allows to set a passed value as the result. This setter implementation has additional methods that, simultaneously with setting the result, return <typeparamref name="TDecision"/> values indicating true or false.</para>
+    /// <para>Represents a setter that allows to set a passed value as the result. This setter variant has additional methods that, simultaneously with setting the result, return <typeparamref name="TDecision"/> values indicating true or false.</para>
     /// <para>Представляет реализацию для установщика, который позволяет установить переданное ему значение в качестве результата. В этой реализации установщика есть дополнительные методы, которые одновременно с установкой результата возвращают значения типа <typeparamref name="TDecision"/>, обозначающие истину или ложь.</para>
     /// </summary>
     /// <typeparam name="TResult">
@@ -15,7 +15,7 @@ namespace Platform.Setters
     /// </typeparam>
     /// <typeparam name="TDecision">
     /// <para>The type of a true and false value.</para>
-    /// <para>Тип значений "истина" и "ложь".</para>
+    /// <para>Тип значений истина и ложь.</para>
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
@@ -33,7 +33,7 @@ namespace Platform.Setters
 
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in value as the default result.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения trueValue, falseValue, defaultValue в качестве результата по умолчанию.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
         /// </summary>
         /// <param name="trueValue">
         /// <para>A true result value.</para>
