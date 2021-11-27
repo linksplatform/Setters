@@ -5,11 +5,10 @@ using System.Runtime.CompilerServices;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents the setter.</para>
-    /// <para>Представляет установщик.</para>
+    /// <para>Represents the <see cref="Setter{TResult}"/>.</para>
+    /// <para>Представляет <see cref="Setter{TResult}"/>.</para>
     /// </summary>
     /// <seealso cref="Setter{TResult, bool}"/>
-    /// <seealso cref="SetterBase{TResult}"/>
     public class Setter<TResult> : Setter<TResult, bool>
     {
         /// <summary>
