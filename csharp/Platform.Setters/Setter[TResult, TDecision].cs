@@ -35,6 +35,14 @@ namespace Platform.Setters
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in value as the default result.</para>
         /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения trueValue, falseValue, defaultValue в качестве результата по умолчанию.</para>
         /// </summary>
+        /// <param name="trueValue">
+        /// <para>A true result value.</para>
+        /// <para>Результирующее значение "истина".</para>
+        /// </param>
+        /// <param name="falseValue">
+        /// <para>A false result value.</para>
+        /// <para>Результирующее значение "ложь".</para>
+        /// </param>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
         /// <para>Результирующее значение по умолчанию.</para>

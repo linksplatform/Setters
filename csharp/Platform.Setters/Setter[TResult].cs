@@ -9,6 +9,7 @@ namespace Platform.Setters
     /// <para>Представляет установщик.</para>
     /// </summary>
     /// <seealso cref="Setter{TResult, bool}"/>
+    /// <seealso cref="SetterBase{TResult}"/>
     public class Setter<TResult> : Setter<TResult, bool>
     {
         /// <summary>
