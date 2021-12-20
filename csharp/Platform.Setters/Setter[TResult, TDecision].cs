@@ -14,7 +14,7 @@ namespace Platform.Setters
     /// <para>Тип результирующего значения.</para>
     /// </typeparam>
     /// <typeparam name="TDecision">
-    /// <para>The type of a true and false value.</para>
+    /// <para>The type of true and false values.</para>
     /// <para>Тип значений истина и ложь.</para>
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
