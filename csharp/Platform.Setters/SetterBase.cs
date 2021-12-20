@@ -15,7 +15,7 @@ namespace Platform.Setters
     /// </typeparam>
     /// <remarks>
     /// <para>Must be class, not struct (in order to persist access to Result property value).</para>
-    /// <para>Является классом, не структурой (чтобы сохранить доступ к значению свойства Result).</para>
+    /// <para>Должен быть классом, а не структурой (чтобы сохранить доступ к значению свойства Result, при передаче ссылки на метод в качестве обработчика).</para>
     /// </remarks>
     public abstract class SetterBase<TResult> : ISetter<TResult>
     {

@@ -14,21 +14,13 @@ namespace Platform.Setters
     /// <para>Тип результирующего значения.</para>
     /// </typeparam>
     /// <typeparam name="TDecision">
-    /// <para>The type of a true and false value.</para>
+    /// <para>The type of true and false values.</para>
     /// <para>Тип значений истина и ложь.</para>
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
-        /// <summary>
-        /// <para>A true value.</para>
-        /// <para>Значение "истина".</para>
-        /// </summary>
         private readonly TDecision _trueValue;
         
-        /// <summary>
-        /// <para>A false value.</para>
-        /// <para>Значение "ложь".</para>
-        /// </summary>
         private readonly TDecision _falseValue;
 
         /// <summary>
