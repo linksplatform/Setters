@@ -339,4 +339,5 @@ ASALocalRun/
 
 # Local History for Visual Studio Code
 .history/
-csharp/Platform.Setters/.DS_Store
+
+.DS_Store
