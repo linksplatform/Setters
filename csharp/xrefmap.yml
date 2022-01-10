@@ -91,6 +91,14 @@ references:
   fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).Setter
   nameWithType: Setter<TResult, TDecision>.Setter
   nameWithType.vb: Setter(Of TResult, TDecision).Setter
+- uid: Platform.Setters.Setter`2.FalseValue
+  name: FalseValue
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_FalseValue
+  commentId: F:Platform.Setters.Setter`2.FalseValue
+  fullName: Platform.Setters.Setter<TResult, TDecision>.FalseValue
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).FalseValue
+  nameWithType: Setter<TResult, TDecision>.FalseValue
+  nameWithType.vb: Setter(Of TResult, TDecision).FalseValue
 - uid: Platform.Setters.Setter`2.SetAndReturnFalse(`0)
   name: SetAndReturnFalse(TResult)
   href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_SetAndReturnFalse__0_
@@ -161,6 +169,14 @@ references:
   fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).SetFirstAndReturnTrue
   nameWithType: Setter<TResult, TDecision>.SetFirstAndReturnTrue
   nameWithType.vb: Setter(Of TResult, TDecision).SetFirstAndReturnTrue
+- uid: Platform.Setters.Setter`2.TrueValue
+  name: TrueValue
+  href: api/Platform.Setters.Setter-2.html#Platform_Setters_Setter_2_TrueValue
+  commentId: F:Platform.Setters.Setter`2.TrueValue
+  fullName: Platform.Setters.Setter<TResult, TDecision>.TrueValue
+  fullName.vb: Platform.Setters.Setter(Of TResult, TDecision).TrueValue
+  nameWithType: Setter<TResult, TDecision>.TrueValue
+  nameWithType.vb: Setter(Of TResult, TDecision).TrueValue
 - uid: Platform.Setters.SetterBase`1
   name: SetterBase<TResult>
   href: api/Platform.Setters.SetterBase-1.html
