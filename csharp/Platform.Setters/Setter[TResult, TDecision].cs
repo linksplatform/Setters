@@ -13,8 +13,8 @@ namespace Platform.Setters
     /// <typeparam name="TDecision"><para>The type of value which will be used to make the decision.</para><para>Тип значения на основе которого будет приниматься решение.</para></typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
-        private readonly TDecision _trueValue;
-        private readonly TDecision _falseValue;
+        public readonly TDecision TrueValue;
+        public readonly TDecision FalseValue;
 
         /// <summary>
         /// <para>Initializes a new instance of the Setter class using the passed-in value as the default result value.</para>
@@ -25,8 +25,8 @@ namespace Platform.Setters
         public Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : base(defaultValue)
         {
-            _trueValue = trueValue;
-            _falseValue = falseValue;
+            TrueValue = trueValue;
+            FalseValue = falseValue;
         }
 
         /// <summary>
@@ -58,7 +58,7 @@ namespace Platform.Setters
         public TDecision SetAndReturnTrue(TResult value)
         {
             _result = value;
-            return _trueValue;
+            return TrueValue;
         }
         
         /// <summary>
@@ -69,7 +69,7 @@ namespace Platform.Setters
         public TDecision SetAndReturnFalse(TResult value)
         {
             _result = value;
-            return _falseValue;
+            return FalseValue;
         }
         
         /// <summary>
@@ -80,7 +80,7 @@ namespace Platform.Setters
         public TDecision SetFirstAndReturnTrue(IList<TResult> list)
         {
             _result = list[0];
-            return _trueValue;
+            return TrueValue;
         }
         
         /// <summary>
@@ -91,7 +91,7 @@ namespace Platform.Setters
         public TDecision SetFirstAndReturnFalse(IList<TResult> list)
         {
             _result = list[0];
-            return _falseValue;
+            return FalseValue;
         }
     }
 }
