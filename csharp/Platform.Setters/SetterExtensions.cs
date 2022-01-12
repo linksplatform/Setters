@@ -18,7 +18,7 @@ namespace Platform.Setters
 
         public static TDecision SetFirstFromSecondListAndReturnTrue<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult> list1, IList<TResult> list2)
         {
-            setter.Set(list1[1]);
+            setter.Set(list2[0]);
             return setter.TrueValue;
         }
 
