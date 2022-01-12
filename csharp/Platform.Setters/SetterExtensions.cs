@@ -33,6 +33,12 @@ namespace Platform.Setters
             setter.Set(list2[1]);
             return setter.TrueValue;
         }
+
+        public static TDecision SetThirdFromSecondListAndReturnTrue<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult> list1, IList<TResult> list2)
+        {
+            setter.Set(list2[2]);
+            return setter.TrueValue;
+        }
     }
 }
 
