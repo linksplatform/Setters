@@ -22,7 +22,7 @@ namespace Platform.Setters
         private readonly TDecision _trueValue;
         
         private readonly TDecision _falseValue;
-        
+
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> values as <paramref name="defaultValue"/>.</para>
         /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> в качестве <paramref name="defaultValue"/>.</para>
@@ -43,8 +43,8 @@ namespace Platform.Setters
         public Setter(TDecision trueValue, TDecision falseValue, TResult defaultValue)
             : base(defaultValue)
         {
-            _trueValue = trueValue;
-            _falseValue = falseValue;
+            TrueValue = trueValue;
+            FalseValue = falseValue;
         }
 
         /// <summary>
@@ -88,7 +88,7 @@ namespace Platform.Setters
         public TDecision SetAndReturnTrue(TResult value)
         {
             _result = value;
-            return _trueValue;
+            return TrueValue;
         }
         
         /// <summary>
@@ -99,7 +99,7 @@ namespace Platform.Setters
         public TDecision SetAndReturnFalse(TResult value)
         {
             _result = value;
-            return _falseValue;
+            return FalseValue;
         }
         
         /// <summary>
@@ -110,7 +110,7 @@ namespace Platform.Setters
         public TDecision SetFirstAndReturnTrue(IList<TResult> list)
         {
             _result = list[0];
-            return _trueValue;
+            return TrueValue;
         }
         
         /// <summary>
@@ -121,7 +121,7 @@ namespace Platform.Setters
         public TDecision SetFirstAndReturnFalse(IList<TResult> list)
         {
             _result = list[0];
-            return _falseValue;
+            return FalseValue;
         }
     }
 }
