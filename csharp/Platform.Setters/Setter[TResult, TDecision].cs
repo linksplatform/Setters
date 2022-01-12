@@ -22,7 +22,7 @@ namespace Platform.Setters
         private readonly TDecision _trueValue;
         
         private readonly TDecision _falseValue;
-
+        
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> values as <paramref name="defaultValue"/>.</para>
         /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> в качестве <paramref name="defaultValue"/>.</para>
