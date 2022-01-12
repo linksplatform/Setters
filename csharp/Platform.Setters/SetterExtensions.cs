@@ -16,6 +16,12 @@ namespace Platform.Setters
             return setter.TrueValue;
         }
 
+        public static TDecision SetThirdFromFirstListAndReturnTrue<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult> list1, IList<TResult> list2)
+        {
+            setter.Set(list1[2]);
+            return setter.TrueValue;
+        }
+
         public static TDecision SetFirstFromSecondListAndReturnTrue<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult> list1, IList<TResult> list2)
         {
             setter.Set(list2[0]);
