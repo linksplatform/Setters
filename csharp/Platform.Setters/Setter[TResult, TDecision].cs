@@ -24,15 +24,15 @@ namespace Platform.Setters
         private readonly TDecision _falseValue;
 
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> values.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> values as <paramref name="defaultValue"/>.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> в качестве <paramref name="defaultValue"/>.</para>
         /// </summary>
         /// <param name="trueValue">
-        /// <para>A true result value.</para>
+        /// <para>A value that indicates true.</para>
         /// <para>Значение обозначающее истину.</para>
         /// </param>
         /// <param name="falseValue">
-        /// <para>A false result value.</para>
+        /// <para>A value that indicates false.</para>
         /// <para>Значение обозначающее ложь.</para>
         /// </param>
         /// <param name="defaultValue">
@@ -48,15 +48,15 @@ namespace Platform.Setters
         }
 
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class.</para>
-        /// <para>Иницаилизирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using passed-in <paramref name="trueValue"/> and <paramref name="falseValue"/> as indicating true and false.</para>
+        /// <para>Иницаилизирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/> и <paramref name="falseValue"/> в качестве обозначающих истину и ложь.</para>
         /// </summary>
         /// <param name="trueValue">
-        /// <para>A true result value.</para>
+        /// <para>A value that indicates true.</para>
         /// <para>Значение обозначающее истину.</para>
         /// </param>
         /// <param name="falseValue">
-        /// <para>A false result value.</para>
+        /// <para>A value that indicates false.</para>
         /// <para>Значение обозначающее ложь.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -64,7 +64,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class with the <paramref name="defaultValue"/> as a result.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, со значением <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя значение <paramref name="defaultValue"/> в качестве результата по умолчанию.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default result value.</para>
