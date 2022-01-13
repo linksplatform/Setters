@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-<!--    Add Platform.Delegates dependency-->
+    <PackageReference Include="Platform.Delegates" Version="0.0.1" />
     <PackageReference Include="Platform.Interfaces" Version="0.4.0" />
   </ItemGroup>
 
