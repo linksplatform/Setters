@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.Setter-1.html",
-          "hash": "U2X4W5CjiHslESWjuVTcCg=="
+          "hash": "qJm3lhQJE55gdG7jqYV/dg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.Setter-2.html",
-          "hash": "k3PfzDrdjAnH9ExAcPH0fg=="
+          "hash": "NsEzEzVpCxIxNnv9DrFq8w=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.SetterBase-1.html",
-          "hash": "NqGJD1JbIC3TXTcMaG2E7g=="
+          "hash": "/FOvTOu9tcDGZCmQF211OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Setters.SetterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Setters.SetterExtensions.html",
+          "hash": "ur3Ahmh+KUuVTMv+KlSxOw=="
         }
       },
       "is_incremental": false,
@@ -66,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Setters.html",
-          "hash": "HKIQs2Y1ywbXW16bjLGd9A=="
+          "hash": "QRjXR2pBGa1hifkHmT7I8g=="
         }
       },
       "is_incremental": false,
@@ -78,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+OYKfmDNlx82wTsHls+YUw=="
+          "hash": "rrvSQZAFoimJucB6xyulSg=="
         }
       },
       "is_incremental": false,
@@ -120,7 +132,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
