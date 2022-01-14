@@ -19,9 +19,8 @@ namespace Platform.Setters
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
-        private readonly TDecision _trueValue;
-        
-        private readonly TDecision _falseValue;
+        public readonly TDecision TrueValue;
+        public readonly TDecision FalseValue;
 
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> values as <paramref name="defaultValue"/>.</para>
