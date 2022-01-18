@@ -122,7 +122,7 @@ namespace Platform.Setters
         /// <para>Устанавливает <paramref name="list[0]"/> в качестве результата и возвращает значение означающее истину.</para>
         /// </summary>
         /// <param name="list[0]">
-        /// <para>First element from list.</para>
+        /// <para>The first item in the list.</para>
         /// <para>Первый элемент из списка.</para>
         /// </param>
         /// <returns>
@@ -141,7 +141,7 @@ namespace Platform.Setters
         /// <para>Устанавливает <paramref name="list[0]"/> в качестве результата и возвращает значение означающее ложь.</para>
         /// </summary>
         /// <param name="list[0]">
-        /// <para>First element from list.</para>
+        /// <para>The first item in the list.</para>
         /// <para>Первый элемент из списка.</para>
         /// </param>
         /// <returns>
