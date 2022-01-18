@@ -24,8 +24,8 @@ namespace Platform.Setters
         private readonly TDecision _falseValue;
 
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> values as <paramref name="defaultValue"/>.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/>, <paramref name="defaultValue"/> в качестве <paramref name="defaultValue"/>.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using the passed-in <paramref name="trueValue"/>, <paramref name="falseValue"/> and <paramref name="defaultValue"/>.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/>, <paramref name="falseValue"/> и <paramref name="defaultValue"/>.</para>
         /// </summary>
         /// <param name="trueValue">
         /// <para>A value that indicates true.</para>
@@ -84,6 +84,14 @@ namespace Platform.Setters
         /// <para>Sets the <paramref name="value"/> to the result and returns the value indicating true.</para>
         /// <para>Устанавливает <paramref name="value"/> в качестве результата и возвращает значение означающее истину.</para>
         /// </summary>
+        /// <param name="value">
+        /// <para>Result value.</para>
+        /// <para>Результирующее значение.</para>
+        /// </param>
+        /// <returns>
+        /// <para>A value that indicates true.</para>
+        /// <para>Значение обозначающее истину.</para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnTrue(TResult value)
         {
@@ -95,6 +103,14 @@ namespace Platform.Setters
         /// <para>Sets the <paramref name="value"/> to the result and returns the value indicating false.</para>
         /// <para>Устанавливает <paramref name="value"/> в качестве результата и возвращает значение означающее ложь.</para>
         /// </summary>
+        /// <param name="value">
+        /// <para>Result value.</para>
+        /// <para>Результирующее значение.</para>
+        /// </param>
+        /// <returns>
+        /// <para>A value that indicates false.</para>
+        /// <para>Значение обозначающее ложь.</para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnFalse(TResult value)
         {
@@ -106,6 +122,14 @@ namespace Platform.Setters
         /// <para>Sets the <paramref name="list[0]"/> to the result and returns the value indicating true.</para>
         /// <para>Устанавливает <paramref name="list[0]"/> в качестве результата и возвращает значение означающее истину.</para>
         /// </summary>
+        /// <param name="list[0]">
+        /// <para>First element from list.</para>
+        /// <para>Первый элемент из списка.</para>
+        /// </param>
+        /// <returns>
+        /// <para>A value that indicates true.</para>
+        /// <para>Значение обозначающее истину.</para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnTrue(IList<TResult> list)
         {
@@ -117,6 +141,14 @@ namespace Platform.Setters
         /// <para>Sets the <paramref name="list[0]"/> to the result and returns the value indicating false.</para>
         /// <para>Устанавливает <paramref name="list[0]"/> в качестве результата и возвращает значение означающее ложь.</para>
         /// </summary>
+        /// <param name="list[0]">
+        /// <para>First element from list.</para>
+        /// <para>Первый элемент из списка.</para>
+        /// </param>
+        /// <returns>
+        /// <para>A value that indicates false.</para>
+        /// <para>Значение обозначающее ложь.</para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetFirstAndReturnFalse(IList<TResult> list)
         {

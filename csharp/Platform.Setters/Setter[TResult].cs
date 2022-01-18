@@ -5,19 +5,23 @@ using System.Runtime.CompilerServices;
 namespace Platform.Setters
 {
     /// <summary>
-    /// <para>Represents the <see cref="Setter{TResult}"/>.</para>
-    /// <para>Представляет <see cref="Setter{TResult}"/>.</para>
+    /// <para>Represents a setter that allows to set a passed value as the result. This setter variant has <typeparamref name="TDecision"/> preset to <see cref="Boolean"/>.</para>
+    /// <para>Представляет установщик, позволяющий устанавливать переданное ему значение в качестве результата. Для этого варианта установщика <typeparamref name="TDecision"/> предустановлен на <see cref="Boolean"/>.</para>
     /// </summary>
     /// <typeparam name="TResult">
     /// <para>The type of a result value.</para>
     /// <para>Тип результирующего значения.</para>
     /// </typeparam>
+    /// <typeparam name="TDecision">
+    /// <para>The type of values indicating true and false.</para>
+    /// <para>Тип значений обозначающих истину и ложь.</para>
+    /// </typeparam>
     /// <seealso cref="Setter{TResult, bool}"/>
     public class Setter<TResult> : Setter<TResult, bool>
     {
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult}"/>.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class with the <paramref name="defaultValue"/> as a result.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult}"/> с <paramref name="defaultValue"/> в качестве результата.</para>
         /// </summary>
         /// <param name="defaultValue">
         /// <para>A default value.</para>
