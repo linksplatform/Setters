@@ -6,7 +6,7 @@ namespace Platform.Setters.Benchmarks
     {
         static void Main()
         {
-            BenchmarkRunner.Run<LambdaVsSetterBenchmarks>();
+            BenchmarkRunner.Run<LambdaVsSetterVsLocalFunctionBenchmarks>();
         }
     }
 }
