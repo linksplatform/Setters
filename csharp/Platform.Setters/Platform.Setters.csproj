@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Setters Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Setters</AssemblyTitle>
-    <VersionPrefix>0.3.0</VersionPrefix>
+    <VersionPrefix>0.3.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5</TargetFrameworks>
     <AssemblyName>Platform.Setters</AssemblyName>
@@ -24,7 +24,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Setter extensions for setting the first, second, therd element from the first or second list arguments are added.</PackageReleaseNotes>
+    <PackageReleaseNotes>SetFirstFromListAndReturnTrue is added.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
