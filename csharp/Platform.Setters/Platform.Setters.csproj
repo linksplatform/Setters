@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Setters Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Setters</AssemblyTitle>
-    <VersionPrefix>0.3.1</VersionPrefix>
+    <VersionPrefix>0.3.2</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5</TargetFrameworks>
     <AssemblyName>Platform.Setters</AssemblyName>
@@ -24,7 +24,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>SetFirstFromListAndReturnTrue is added.</PackageReleaseNotes>
+    <PackageReleaseNotes>Platform.Interfaces dependency is updated from 0.4.0 to 0.4.1.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -38,7 +38,7 @@
 
   <ItemGroup>
     <PackageReference Include="Platform.Delegates" Version="0.0.1" />
-    <PackageReference Include="Platform.Interfaces" Version="0.4.0" />
+    <PackageReference Include="Platform.Interfaces" Version="0.4.1" />
   </ItemGroup>
 
   <!--
