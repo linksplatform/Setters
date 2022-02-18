@@ -42,13 +42,13 @@
             return _falseValue;
         }
 
-        public: TDecision SetFirstAndReturnTrue(Interfaces::IArray<TResult> auto&& list)
+        public: TDecision SetFirstAndReturnTrue(Interfaces::CArray<TResult> auto&& list)
         {
             base::_result = list[0];
             return _trueValue;
         }
 
-        public: TDecision SetFirstAndReturnFalse(Interfaces::IArray<TResult> auto&& list)
+        public: TDecision SetFirstAndReturnFalse(Interfaces::CArray<TResult> auto&& list)
         {
             base::_result = list[0];
             return _falseValue;
