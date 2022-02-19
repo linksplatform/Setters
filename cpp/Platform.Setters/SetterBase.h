@@ -15,6 +15,6 @@
 
         public: void Set(TResult value) { _result = value; }
 
-        public: ~SetterBase() requires Interfaces::ISetter<decltype(*this), TResult> = default;
+        public: ~SetterBase() requires Interfaces::CSetter<decltype(*this), TResult> = default;
     };
 }
