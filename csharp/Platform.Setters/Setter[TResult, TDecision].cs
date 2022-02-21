@@ -19,7 +19,18 @@ namespace Platform.Setters
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
+        /// </summary>
+        /// <param name="TrueValue">
+        /// <para>A value that indicates true.</para>
+        /// <para>Значение обозначающее истину.</para>
+        /// </param>
         public readonly TDecision TrueValue;
+
+        /// </summary>
+        /// <param name="FalseValue">
+        /// <para>A value that indicates false.</para>
+        /// <para>Значение обозначающее ложь.</para>
+        /// </param>
         public readonly TDecision FalseValue;
 
         /// <summary>
@@ -81,7 +92,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Sets the <paramref name="value"/> to the <see cref="Result"/> and returns the value indicating true.</para>
-        /// <para>Устанавливает <paramref name="value"/> в качестве <see cref="Result"/> и возвращает значение означающее истину.</para>
+        /// <para>Устанавливает <paramref name="value"/> как результат и возвращает значение обозначающее истину.</para>
         /// </summary>
         /// <param name="value">
         /// <para>A result value.</para>
@@ -100,7 +111,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Sets the <paramref name="value"/> to the <see cref="Result"/> and returns the value indicating false.</para>
-        /// <para>Устанавливает <paramref name="value"/> в качестве <see cref="Result"/> и возвращает значение означающее ложь.</para>
+        /// <para>Устанавливает <paramref name="value"/> как результат и возвращает значение обозначающее ложь.</para>
         /// </summary>
         /// <param name="value">
         /// <para>A result value.</para>
@@ -118,8 +129,8 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the <paramref name="list[0]"/> to the result and returns the value indicating true.</para>
-        /// <para>Устанавливает <paramref name="list[0]"/> в качестве результата и возвращает значение означающее истину.</para>
+        /// <para>Sets the <paramref name="list"/> to the result and returns the value indicating true.</para>
+        /// <para>Устанавливает <paramref name="list"/> в качестве результата и возвращает значение означающее истину.</para>
         /// </summary>
         /// <param name="list">
         /// <para>A list from which the first item will be set as <see cref="Result"/>.</para>
@@ -137,8 +148,8 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the <paramref name="list[0]"/> to the result and returns the value indicating false.</para>
-        /// <para>Устанавливает <paramref name="list[0]"/> в качестве результата и возвращает значение означающее ложь.</para>
+        /// <para>Sets the <paramref name="list"/> to the result and returns the value indicating false.</para>
+        /// <para>Устанавливает <paramref name="list"/> в качестве результата и возвращает значение означающее ложь.</para>
         /// </summary>
         /// <param name="list">
         /// <para>A list from which the first item will be set as <see cref="Result"/>.</para>
