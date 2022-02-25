@@ -46,7 +46,19 @@ static void BenchmarkSetterMemberFunctionWithStdBind()
 {
 //    Constants<int> constants {};
     Platform::Setters::Setter<int, int> setter { 777, 666, 0 };
-    call<int>(std::bind(&Platform::Setters::Setter<int, int>::SetFirstAndReturnTrue<std::vector<int>>, &setter, std::placeholders::_1), std::vector { 1, 1, 1 });
+    auto fp = &Platform::Setters::Setter<int, int>::SetFirstAndReturnTrue<std::vector<int>>;
+
+    // auto f = std::bind(&Platform::Setters::Setter<int, int>::SetFirstAndReturnTrue<std::vector<int>>, &setter, std::placeholders::_1);
+    // auto v = std::vector<int> { 1, 1, 1 };
+    // auto v = std::array{ 1, 2, 3 };
+
+
+    // f(v);
+    // fp(&setter, v);
+
+    // ((&setter)->*fp)(v);
+    ((&setter)->*fp)(std::vector<int> { 1, 1, 1 });
+    // call<int>(f, v);
 }
 
 //static int BenchmarkLambda()
