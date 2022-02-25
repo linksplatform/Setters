@@ -1,5 +1,6 @@
 [requires]
 gtest/cci.20210126
+benchmark/1.6.0
 platform.interfaces/0.2.5
 
 [generators]
