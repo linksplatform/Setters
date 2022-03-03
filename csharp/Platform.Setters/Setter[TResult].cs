@@ -6,7 +6,7 @@ namespace Platform.Setters
 {
     /// <summary>
     /// <para>Represents a setter that allows to set a passed value as the result. This setter variant has <typeparamref name="TDecision"/> preset to <see cref="Boolean"/>.</para>
-    /// <para>Представляет установщик, позволяющий устанавливать переданное ему значение в качестве результата. Для этого варианта установщика <typeparamref name="TDecision"/> предустановлен на <see cref="Boolean"/>.</para>
+    /// <para>Представляет установщик, позволяющий устанавливать переданное ему значение в качестве результата. Для этого варианта установщика <typeparamref name="TDecision"/> предустановлен в <see cref="Boolean"/>.</para>
     /// </summary>
     /// <typeparam name="TResult">
     /// <para>The type of a result value.</para>
