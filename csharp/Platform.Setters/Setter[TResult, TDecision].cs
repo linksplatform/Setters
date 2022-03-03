@@ -21,15 +21,15 @@ namespace Platform.Setters
     {
         /// </summary>
         /// <param name="TrueValue">
-        /// <para>A value that indicates true.</para>
-        /// <para>Значение обозначающее истину.</para>
+        /// <para>A read-only field that represents a value that indicates true.</para>
+        /// <para>Поле только для чтения, представляющее значение обозначающее истину.</para>
         /// </param>
         public readonly TDecision TrueValue;
 
         /// </summary>
         /// <param name="FalseValue">
-        /// <para>A value that indicates false.</para>
-        /// <para>Значение обозначающее ложь.</para>
+        /// <para>A read-only field that represents a value that indicates false.</para>
+        /// <para>Поле только для чтения, представляющее значение обозначающее ложь.</para>
         /// </param>
         public readonly TDecision FalseValue;
 
@@ -59,7 +59,7 @@ namespace Platform.Setters
 
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="Setter{TResult, TDecision}"/> class using passed-in <paramref name="trueValue"/> and <paramref name="falseValue"/> as indicating true and false.</para>
-        /// <para>Иницаилизирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/> и <paramref name="falseValue"/> в качестве обозначающих истину и ложь.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданные значения <paramref name="trueValue"/> и <paramref name="falseValue"/> в качестве обозначающих истину и ложь.</para>
         /// </summary>
         /// <param name="trueValue">
         /// <para>A value that indicates true.</para>
@@ -92,7 +92,7 @@ namespace Platform.Setters
         
         /// <summary>
         /// <para>Sets the <paramref name="value"/> to the <see cref="Result"/> and returns the value indicating true.</para>
-        /// <para>Устанавливает <paramref name="value"/> как результат и возвращает значение обозначающее истину.</para>
+        /// <para>Устанавливает <paramref name="value"/> в <see cref="Result"/> и возвращает значение обозначающее истину.</para>
         /// </summary>
         /// <param name="value">
         /// <para>A result value.</para>
