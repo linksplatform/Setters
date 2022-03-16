@@ -77,9 +77,12 @@ namespace Platform.Setters
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public TDecision SetFirstAndReturnTrue(IList<TResult> list)
+        public TDecision SetFirstAndReturnTrue(IList<TResult>? list)
         {
-            _result = list[0];
+            if (list != null)
+            {
+                _result = list[0];
+            }
             return TrueValue;
         }
         
@@ -88,9 +91,12 @@ namespace Platform.Setters
         /// <para>Возвращает результирующее значение.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public TDecision SetFirstAndReturnFalse(IList<TResult> list)
+        public TDecision SetFirstAndReturnFalse(IList<TResult>? list)
         {
-            _result = list[0];
+            if (list != null)
+            {
+                _result = list[0];
+            }
             return FalseValue;
         }
     }
