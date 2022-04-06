@@ -259,6 +259,22 @@ references:
   commentId: T:Platform.Setters.SetterExtensions
   fullName: Platform.Setters.SetterExtensions
   nameWithType: SetterExtensions
+- uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse*
+  name: SetFirstFromNonNullFirstListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullFirstListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse
+  nameWithType: SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: SetFirstFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullFirstListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: SetFirstFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetFirstFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnTrue*
   name: SetFirstFromNonNullFirstListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullFirstListAndReturnTrue_
@@ -275,6 +291,22 @@ references:
   fullName.vb: Platform.Setters.SetterExtensions.SetFirstFromNonNullFirstListAndReturnTrue(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
   nameWithType: SetterExtensions.SetFirstFromNonNullFirstListAndReturnTrue<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
   nameWithType.vb: SetterExtensions.SetFirstFromNonNullFirstListAndReturnTrue(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+- uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse*
+  name: SetFirstFromNonNullListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse
+  nameWithType: SetterExtensions.SetFirstFromNonNullListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0})
+  name: SetFirstFromNonNullListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0})
+  name.vb: SetFirstFromNonNullListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetFirstFromNonNullListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetFirstFromNonNullListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnTrue*
   name: SetFirstFromNonNullListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullListAndReturnTrue_
@@ -291,6 +323,22 @@ references:
   fullName.vb: Platform.Setters.SetterExtensions.SetFirstFromNonNullListAndReturnTrue(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult))
   nameWithType: SetterExtensions.SetFirstFromNonNullListAndReturnTrue<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>)
   nameWithType.vb: SetterExtensions.SetFirstFromNonNullListAndReturnTrue(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult))
+- uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse*
+  name: SetFirstFromNonNullSecondListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullSecondListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse
+  nameWithType: SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: SetFirstFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullSecondListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: SetFirstFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetFirstFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnTrue*
   name: SetFirstFromNonNullSecondListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetFirstFromNonNullSecondListAndReturnTrue_
@@ -307,6 +355,22 @@ references:
   fullName.vb: Platform.Setters.SetterExtensions.SetFirstFromNonNullSecondListAndReturnTrue(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
   nameWithType: SetterExtensions.SetFirstFromNonNullSecondListAndReturnTrue<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
   nameWithType.vb: SetterExtensions.SetFirstFromNonNullSecondListAndReturnTrue(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+- uid: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse*
+  name: SetSecondFromNonNullFirstListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetSecondFromNonNullFirstListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse
+  nameWithType: SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: SetSecondFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetSecondFromNonNullFirstListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: SetSecondFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetSecondFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnTrue*
   name: SetSecondFromNonNullFirstListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetSecondFromNonNullFirstListAndReturnTrue_
@@ -323,6 +387,22 @@ references:
   fullName.vb: Platform.Setters.SetterExtensions.SetSecondFromNonNullFirstListAndReturnTrue(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
   nameWithType: SetterExtensions.SetSecondFromNonNullFirstListAndReturnTrue<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
   nameWithType.vb: SetterExtensions.SetSecondFromNonNullFirstListAndReturnTrue(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+- uid: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse*
+  name: SetSecondFromNonNullSecondListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetSecondFromNonNullSecondListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse
+  nameWithType: SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: SetSecondFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetSecondFromNonNullSecondListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: SetSecondFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetSecondFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnTrue*
   name: SetSecondFromNonNullSecondListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetSecondFromNonNullSecondListAndReturnTrue_
@@ -339,6 +419,22 @@ references:
   fullName.vb: Platform.Setters.SetterExtensions.SetSecondFromNonNullSecondListAndReturnTrue(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
   nameWithType: SetterExtensions.SetSecondFromNonNullSecondListAndReturnTrue<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
   nameWithType.vb: SetterExtensions.SetSecondFromNonNullSecondListAndReturnTrue(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+- uid: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse*
+  name: SetThirdFromNonNullFirstListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetThirdFromNonNullFirstListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse
+  nameWithType: SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: SetThirdFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetThirdFromNonNullFirstListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: SetThirdFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetThirdFromNonNullFirstListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnTrue*
   name: SetThirdFromNonNullFirstListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetThirdFromNonNullFirstListAndReturnTrue_
@@ -355,6 +451,22 @@ references:
   fullName.vb: Platform.Setters.SetterExtensions.SetThirdFromNonNullFirstListAndReturnTrue(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
   nameWithType: SetterExtensions.SetThirdFromNonNullFirstListAndReturnTrue<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
   nameWithType.vb: SetterExtensions.SetThirdFromNonNullFirstListAndReturnTrue(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+- uid: Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse*
+  name: SetThirdFromNonNullSecondListAndReturnFalse
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetThirdFromNonNullSecondListAndReturnFalse_
+  commentId: Overload:Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse
+  isSpec: "True"
+  fullName: Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse
+  nameWithType: SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse
+- uid: Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name: SetThirdFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetThirdFromNonNullSecondListAndReturnFalse__2_Platform_Setters_Setter___0___1__System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  commentId: M:Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse``2(Platform.Setters.Setter{``0,``1},System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
+  name.vb: SetThirdFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
+  fullName: Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Platform.Setters.Setter<TResult, TDecision>, System.Collections.Generic.IList<TResult>, System.Collections.Generic.IList<TResult>)
+  fullName.vb: Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Platform.Setters.Setter(Of TResult, TDecision), System.Collections.Generic.IList(Of TResult), System.Collections.Generic.IList(Of TResult))
+  nameWithType: SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse<TResult, TDecision>(Setter<TResult, TDecision>, IList<TResult>, IList<TResult>)
+  nameWithType.vb: SetterExtensions.SetThirdFromNonNullSecondListAndReturnFalse(Of TResult, TDecision)(Setter(Of TResult, TDecision), IList(Of TResult), IList(Of TResult))
 - uid: Platform.Setters.SetterExtensions.SetThirdFromNonNullSecondListAndReturnTrue*
   name: SetThirdFromNonNullSecondListAndReturnTrue
   href: api/Platform.Setters.SetterExtensions.html#Platform_Setters_SetterExtensions_SetThirdFromNonNullSecondListAndReturnTrue_
