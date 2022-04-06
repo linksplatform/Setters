@@ -66,6 +66,68 @@ namespace Platform.Setters
             }
             return setter.TrueValue;
         }
+        public static TDecision SetFirstFromNonNullListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list)
+        {
+            if (list != null)
+            {
+                setter.Set(list[0]);
+            }
+            return setter.FalseValue;
+        }
+
+        public static TDecision SetFirstFromNonNullFirstListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list1, IList<TResult>? list2)
+        {
+            if (list1 != null)
+            {
+                setter.Set(list1[0]);
+            }
+            return setter.FalseValue;
+        }
+
+        public static TDecision SetSecondFromNonNullFirstListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list1, IList<TResult>? list2)
+        {
+            if (list1 != null)
+            {
+                setter.Set(list1[1]);
+            }
+            return setter.FalseValue;
+        }
+
+        public static TDecision SetThirdFromNonNullFirstListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list1, IList<TResult>? list2)
+        {
+            if (list1 != null)
+            {
+                setter.Set(list1[2]);
+            }
+            return setter.FalseValue;
+        }
+
+        public static TDecision SetFirstFromNonNullSecondListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list1, IList<TResult>? list2)
+        {
+            if (list2 != null)
+            {
+                setter.Set(list2[0]);
+            }
+            return setter.FalseValue;
+        }
+
+        public static TDecision SetSecondFromNonNullSecondListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list1, IList<TResult>? list2)
+        {
+            if (list2 != null)
+            {
+                setter.Set(list2[1]);
+            }
+            return setter.FalseValue;
+        }
+
+        public static TDecision SetThirdFromNonNullSecondListAndReturnFalse<TResult, TDecision>(this Setter<TResult, TDecision> setter, IList<TResult>? list1, IList<TResult>? list2)
+        {
+            if (list2 != null)
+            {
+                setter.Set(list2[2]);
+            }
+            return setter.FalseValue;
+        }
     }
 }
 
