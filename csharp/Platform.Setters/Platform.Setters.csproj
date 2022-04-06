@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Setters Class Library</Description>
     <Copyright>konard</Copyright>
     <AssemblyTitle>Platform.Setters</AssemblyTitle>
-    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionPrefix>0.4.1</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
     <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5;net6</TargetFrameworks>
     <AssemblyName>Platform.Setters</AssemblyName>
@@ -24,9 +24,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>coverlet.collector dependency is updated from 3.1.0 to 3.1.2.
-The Setter methods are renamed.
-The arguments of the setters methods are made nullable.</PackageReleaseNotes>
+    <PackageReleaseNotes>Add Setters extensions that check if a passed value is null, set if it is not, and return false value.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
