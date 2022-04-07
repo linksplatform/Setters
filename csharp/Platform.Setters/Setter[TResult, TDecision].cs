@@ -19,18 +19,16 @@ namespace Platform.Setters
     /// </typeparam>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
-        /// </summary>
-        /// <param name="TrueValue">
+        /// <summary>
         /// <para>A read-only field that represents a value that indicates true.</para>
         /// <para>Поле только для чтения, представляющее значение обозначающее истину.</para>
-        /// </param>
+        /// </summary>
         public readonly TDecision TrueValue;
 
-        /// </summary>
-        /// <param name="FalseValue">
+        /// <summary>
         /// <para>A read-only field that represents a value that indicates false.</para>
         /// <para>Поле только для чтения, представляющее значение обозначающее ложь.</para>
-        /// </param>
+        /// </summary>
         public readonly TDecision FalseValue;
 
         /// <summary>
@@ -110,7 +108,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the first element from <paramref name="value"/> to the <see cref="Result"/> and returns the value indicating false.</para>
+        /// <para>Sets the <paramref name="value"/> to the <see cref="Result"/> and returns the value indicating false.</para>
         /// <para>Устанавливает <paramref name="value"/> в <see cref="Result"/> и возвращает значение обозначающее ложь.</para>
         /// </summary>
         /// <param name="value">
@@ -129,11 +127,11 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the first element from <paramref name="list"/> to the result and returns the value indicating true.</para>
+        /// <para>Sets the first element from <paramref name="list"/> to the <see cref="Result"/> and returns the value indicating true.</para>
         /// <para>Устанавливает первый элемент из <paramref name="list"/> в <see cref="Result"/> и возвращает значение означающее истину.</para>
         /// </summary>
         /// <param name="list">
-        /// <para>A list from which the first item will be set as <see cref="Result"/>.</para>
+        /// <para>A list from which the first item will be set to <see cref="Result"/>.</para>
         /// <para>Список, первый элемент которого будет установлен в <see cref="Result"/>.</para>
         /// </param>
         /// <returns>
@@ -148,11 +146,11 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the <paramref name="list"/> to the result and returns the value indicating false.</para>
+        /// <para>Sets the <paramref name="list"/> to the <see cref="Result"/> and returns the value indicating false.</para>
         /// <para>Устанавливает первый элемент из <paramref name="list"/> в <see cref="Result"/> и возвращает значение означающее ложь.</para>
         /// </summary>
         /// <param name="list">
-        /// <para>A list from which the first item will be set as <see cref="Result"/>.</para>
+        /// <para>A list from which the first item will be set to <see cref="Result"/>.</para>
         /// <para>Список, первый элемент которого будет установлен в <see cref="Result"/>.</para>
         /// </param>
         /// <returns>

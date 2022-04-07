@@ -20,19 +20,19 @@ namespace Platform.Setters
     public class Setter<TResult> : Setter<TResult, bool>
     {
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class with the <paramref name="defaultValue"/> as a result.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult}"/> с <paramref name="defaultValue"/> в качестве результата.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, bool}"/> class with the <paramref name="defaultValue"/> as a result.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, bool}"/> с <paramref name="defaultValue"/> в качестве результата.</para>
         /// </summary>
         /// <param name="defaultValue">
-        /// <para>A default value.</para>
-        /// <para>Значение по умолчанию.</para>
+        /// <para>A default result value.</para>
+        /// <para>Результирующее значение по умолчанию.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter(TResult defaultValue) : base(true, false, defaultValue) { }
 
         /// <summary>
-        /// <para>Initializes a new instance of the <see cref="Setter{TResult}"/> class.</para>
-        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult}"/>.</para>
+        /// <para>Initializes a new instance of the <see cref="Setter{TResult, bool}"/> class.</para>
+        /// <para>Инициализирует новый экземпляр класса <see cref="Setter{TResult, bool}"/>.</para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Setter() : base(true, false) { }
