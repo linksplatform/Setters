@@ -17,6 +17,7 @@ namespace Platform.Setters
     /// <para>The type of values indicating true and false.</para>
     /// <para>Тип значений обозначающих истину и ложь.</para>
     /// </typeparam>
+    /// <seealso cref="Setter{TResult, bool}"/>
     public class Setter<TResult, TDecision> : SetterBase<TResult>
     {
         /// <summary>
@@ -146,7 +147,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the <paramref name="list"/> to the <see cref="Result"/> and returns the value indicating false.</para>
+        /// <para>Sets the first element from<paramref name="list"/> to the <see cref="Result"/> and returns the value indicating false.</para>
         /// <para>Устанавливает первый элемент из <paramref name="list"/> в <see cref="Result"/> и возвращает значение означающее ложь.</para>
         /// </summary>
         /// <param name="list">

@@ -16,7 +16,7 @@ namespace Platform.Setters
     /// <para>The type of values indicating true and false.</para>
     /// <para>Тип значений обозначающих истину и ложь.</para>
     /// </typeparam>
-    /// <seealso cref="Setter{TResult, bool}"/>
+    /// <seealso cref="Setter{TResult, TDecision}"/>
     public class Setter<TResult> : Setter<TResult, bool>
     {
         /// <summary>
