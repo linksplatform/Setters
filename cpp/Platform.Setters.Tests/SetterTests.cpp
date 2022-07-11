@@ -1,5 +1,6 @@
 ﻿#include <gtest/gtest.h>
 #include <Platform.Setters.h>
+#include "SetterExtensionsTests.cpp"
 
 namespace Platform::Setters::Tests
 {
