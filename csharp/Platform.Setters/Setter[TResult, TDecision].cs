@@ -126,11 +126,11 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the first element from <paramref name="list"/> to the <see cref="Result"/> and returns the value indicating true.</para>
+        /// <para>Sets the first element from the<paramref name="list"/> to the <see cref="Result"/> and returns the value indicating true.</para>
         /// <para>Устанавливает первый элемент из <paramref name="list"/> в <see cref="Result"/> и возвращает значение означающее истину.</para>
         /// </summary>
         /// <param name="list">
-        /// <para>A list from which the first item will be set to <see cref="Result"/>.</para>
+        /// <para>A list from which the first item will be set to the <see cref="Result"/>.</para>
         /// <para>Список, первый элемент которого будет установлен в <see cref="Result"/>.</para>
         /// </param>
         /// <returns>
@@ -145,11 +145,11 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the first element from<paramref name="list"/> to the <see cref="Result"/> and returns the value indicating false.</para>
+        /// <para>Sets the first element from the <paramref name="list"/> to the <see cref="Result"/> and returns the value indicating false.</para>
         /// <para>Устанавливает первый элемент из <paramref name="list"/> в <see cref="Result"/> и возвращает значение означающее ложь.</para>
         /// </summary>
         /// <param name="list">
-        /// <para>A list from which the first item will be set to <see cref="Result"/>.</para>
+        /// <para>A list from which the first item will be set to the <see cref="Result"/>.</para>
         /// <para>Список, первый элемент которого будет установлен в <see cref="Result"/>.</para>
         /// </param>
         /// <returns>
