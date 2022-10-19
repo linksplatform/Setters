@@ -126,7 +126,7 @@ namespace Platform.Setters
         }
         
         /// <summary>
-        /// <para>Sets the first element from the<paramref name="list"/> to the <see cref="Result"/> and returns the value indicating true.</para>
+        /// <para>Sets the first element from the <paramref name="list"/> to the <see cref="Result"/> and returns the value indicating true.</para>
         /// <para>Устанавливает первый элемент из <paramref name="list"/> в <see cref="Result"/> и возвращает значение означающее истину.</para>
         /// </summary>
         /// <param name="list">
