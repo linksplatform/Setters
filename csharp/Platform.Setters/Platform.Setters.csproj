@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Setters Class Library</Description>
     <Copyright>konard</Copyright>
     <AssemblyTitle>Platform.Setters</AssemblyTitle>
-    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionPrefix>0.5.0</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
     <TargetFramework>net7</TargetFramework>
     <AssemblyName>Platform.Setters</AssemblyName>
@@ -12,7 +12,7 @@
     <PackageTags>LinksPlatform;Setters;Setter;SetterBase</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Setters</PackageProjectUrl>
-    <PackageLicenseExpression>Unlicensed</PackageLicenseExpression>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/linksplatform/Setters</RepositoryUrl>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -23,9 +23,9 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>coverlet.collector dependency is updated from 3.1.0 to 3.1.2.
-The Setter methods are renamed.
-The arguments of the setters methods are made nullable.</PackageReleaseNotes>
+    <PackageReleaseNotes>Platform.Delegates dependency is updated from 0.0.1 to 0.1.1.
+Target frameworks are changed to net7.
+Platform.Interfaces dependency is updated from 0.4.2 to 0.5.0.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -38,8 +38,8 @@ The arguments of the setters methods are made nullable.</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Platform.Delegates" Version="0.0.1" />
-    <PackageReference Include="Platform.Interfaces" Version="0.4.2" />
+    <PackageReference Include="Platform.Delegates" Version="0.1.1" />
+    <PackageReference Include="Platform.Interfaces" Version="0.5.0" />
   </ItemGroup>
 
   <!--
