@@ -4,13 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Setters", "Platform.Setters\Platform.Setters.csproj", "{44852A79-526B-4FA7-9701-18E4E3070949}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1394B2AC-0B80-4F29-82C3-A610C3BD6BDB} = {1394B2AC-0B80-4F29-82C3-A610C3BD6BDB}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Setters.Tests", "Platform.Setters.Tests\Platform.Setters.Tests.csproj", "{52B82065-B845-4D97-8062-E7C209503B51}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpToCppTranslator", "CSharpToCppTranslator\CSharpToCppTranslator.csproj", "{1394B2AC-0B80-4F29-82C3-A610C3BD6BDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Setters.Benchmarks", "Platform.Setters.Benchmarks\Platform.Setters.Benchmarks.csproj", "{3B7CF42F-46F9-480E-B50D-1AA9A9F02E29}"
 EndProject
@@ -28,10 +23,6 @@ Global
 		{52B82065-B845-4D97-8062-E7C209503B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B82065-B845-4D97-8062-E7C209503B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B82065-B845-4D97-8062-E7C209503B51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1394B2AC-0B80-4F29-82C3-A610C3BD6BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1394B2AC-0B80-4F29-82C3-A610C3BD6BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1394B2AC-0B80-4F29-82C3-A610C3BD6BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1394B2AC-0B80-4F29-82C3-A610C3BD6BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B7CF42F-46F9-480E-B50D-1AA9A9F02E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B7CF42F-46F9-480E-B50D-1AA9A9F02E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7CF42F-46F9-480E-B50D-1AA9A9F02E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
