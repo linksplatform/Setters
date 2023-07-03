@@ -5,8 +5,8 @@
     <title>LinksPlatform's Platform.Setters Template Library</title>
     <summary>LinksPlatform's Platform.Setters is a Template Library what contains class templates.</summary>
     <description>LinksPlatform's Platform.Setters is a Template Library what contains set of C++ class templates. Each setter provides a set of callback methods to set the result value. Use Platform.Setters.h file to include the library.</description>
-    <releaseNotes>Initial release.</releaseNotes>
-    <version>0.0.1</version>
+    <releaseNotes>Updated Setters for Interface 0.3.41</releaseNotes>
+    <version>0.1.0</version>
     <authors>konard, Mitron57</authors>
     <owners>konard, Mitron57</owners>
     <copyright>konard, Mitron57</copyright>
