@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFrameworks>net7</TargetFrameworks>
+        <TargetFrameworks>net8</TargetFrameworks>
         <IsPackable>false</IsPackable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>

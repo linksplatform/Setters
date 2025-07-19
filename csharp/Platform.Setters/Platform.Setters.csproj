@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Setters</AssemblyTitle>
     <VersionPrefix>0.5.0</VersionPrefix>
     <Authors>konard, FreePhoenix888</Authors>
-    <TargetFramework>net7</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
     <AssemblyName>Platform.Setters</AssemblyName>
     <PackageId>Platform.Setters</PackageId>
     <PackageTags>LinksPlatform;Setters;Setter;SetterBase</PackageTags>
@@ -23,9 +23,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Platform.Delegates dependency is updated from 0.0.1 to 0.1.1.
-Target frameworks are changed to net7.
-Platform.Interfaces dependency is updated from 0.4.2 to 0.5.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>Update target framework from net7 to net8.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
