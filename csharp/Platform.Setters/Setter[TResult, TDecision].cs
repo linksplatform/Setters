@@ -102,7 +102,7 @@ namespace Platform.Setters
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnTrue(TResult value)
         {
-            _result = value;
+            Result = value;
             return TrueValue;
         }
         
@@ -121,7 +121,7 @@ namespace Platform.Setters
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision SetAndReturnFalse(TResult value)
         {
-            _result = value;
+            Result = value;
             return FalseValue;
         }
         
@@ -142,7 +142,7 @@ namespace Platform.Setters
         {
             if (list != null)
             {
-                _result = list[0];
+                Result = list[0];
             }
             return TrueValue;
         }
@@ -164,7 +164,7 @@ namespace Platform.Setters
         {
             if (list != null)
             {
-                _result = list[0];
+                Result = list[0];
             }
             return FalseValue;
         }

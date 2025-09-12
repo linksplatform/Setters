@@ -21,13 +21,7 @@ namespace Platform.Setters
         /// <para>Represents a result value.</para>
         /// <para>Представляет результирующие значение.</para>
         /// </summary>
-        protected TResult _result;
-        
-        /// <summary>
-        /// <para>Gets a result value.</para>
-        /// <para>Возвращает результирующее значение.</para>
-        /// </summary>
-        public TResult Result => _result;
+        public TResult Result;
         
         /// <summary>
         /// <para>Initializes a new instance of the <see cref="SetterBase"/> class.</para>
@@ -45,7 +39,7 @@ namespace Platform.Setters
         /// <para>Результирующее значение по умолчанию.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        protected SetterBase(TResult defaultValue) => _result = defaultValue;
+        protected SetterBase(TResult defaultValue) => Result = defaultValue;
         
         /// <summary>
         /// <para>Sets a <paramref name="value"/> as the result.</para>
@@ -56,6 +50,6 @@ namespace Platform.Setters
         /// <para>Результирующее значение.</para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public void Set(TResult value) => _result = value;
+        public void Set(TResult value) => Result = value;
     }
 }
