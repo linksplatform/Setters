@@ -88,6 +88,40 @@ namespace Platform.Setters
         public Setter() { }
         
         /// <summary>
+        /// <para>Creates a new instance of the <see cref="Setter{TResult, TDecision}"/> class using passed-in <paramref name="constantValue"/> as both true and false values.</para>
+        /// <para>Создает новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданное значение <paramref name="constantValue"/> в качестве значения для истины и лжи.</para>
+        /// </summary>
+        /// <param name="constantValue">
+        /// <para>A constant value that will be used for both true and false cases.</para>
+        /// <para>Константное значение, которое будет использоваться для случаев истины и лжи.</para>
+        /// </param>
+        /// <returns>
+        /// <para>A new instance of the <see cref="Setter{TResult, TDecision}"/> class with the same constant for both true and false values.</para>
+        /// <para>Новый экземпляр класса <see cref="Setter{TResult, TDecision}"/> с одинаковой константой для значений истины и лжи.</para>
+        /// </returns>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static Setter<TResult, TDecision> WithConstant(TDecision constantValue) => new(constantValue, constantValue);
+        
+        /// <summary>
+        /// <para>Creates a new instance of the <see cref="Setter{TResult, TDecision}"/> class using passed-in <paramref name="constantValue"/> as both true and false values with the <paramref name="defaultValue"/> as a result.</para>
+        /// <para>Создает новый экземпляр класса <see cref="Setter{TResult, TDecision}"/>, используя переданное значение <paramref name="constantValue"/> в качестве значения для истины и лжи с <paramref name="defaultValue"/> в качестве результата.</para>
+        /// </summary>
+        /// <param name="constantValue">
+        /// <para>A constant value that will be used for both true and false cases.</para>
+        /// <para>Константное значение, которое будет использоваться для случаев истины и лжи.</para>
+        /// </param>
+        /// <param name="defaultValue">
+        /// <para>A default result value.</para>
+        /// <para>Результирующее значение по умолчанию.</para>
+        /// </param>
+        /// <returns>
+        /// <para>A new instance of the <see cref="Setter{TResult, TDecision}"/> class with the same constant for both true and false values and the specified default result value.</para>
+        /// <para>Новый экземпляр класса <see cref="Setter{TResult, TDecision}"/> с одинаковой константой для значений истины и лжи и указанным значением результата по умолчанию.</para>
+        /// </returns>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static Setter<TResult, TDecision> WithConstant(TDecision constantValue, TResult defaultValue) => new(constantValue, constantValue, defaultValue);
+        
+        /// <summary>
         /// <para>Sets the <paramref name="value"/> to the <see cref="Result"/> and returns the value indicating true.</para>
         /// <para>Устанавливает <paramref name="value"/> в <see cref="Result"/> и возвращает значение обозначающее истину.</para>
         /// </summary>
