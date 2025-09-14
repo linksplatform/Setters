@@ -45,5 +45,31 @@ namespace Platform.Setters.Tests
             Assert.Equal(0, setter.SetFirstAndReturnFalse(new int[] { 4 }));
             Assert.Equal(4, setter.Result);
         }
+
+        [Fact]
+        public void WithConstantFactoryMethodTest()
+        {
+            Setter<int, int> setter = Setter<int, int>.WithConstant(42);
+            Assert.Equal(42, setter.TrueValue);
+            Assert.Equal(42, setter.FalseValue);
+            Assert.Equal(default, setter.Result);
+            Assert.Equal(42, setter.SetAndReturnTrue(1));
+            Assert.Equal(1, setter.Result);
+            Assert.Equal(42, setter.SetAndReturnFalse(2));
+            Assert.Equal(2, setter.Result);
+        }
+
+        [Fact]
+        public void WithConstantAndDefaultValueFactoryMethodTest()
+        {
+            Setter<int, int> setter = Setter<int, int>.WithConstant(42, 99);
+            Assert.Equal(42, setter.TrueValue);
+            Assert.Equal(42, setter.FalseValue);
+            Assert.Equal(99, setter.Result);
+            Assert.Equal(42, setter.SetAndReturnTrue(1));
+            Assert.Equal(1, setter.Result);
+            Assert.Equal(42, setter.SetAndReturnFalse(2));
+            Assert.Equal(2, setter.Result);
+        }
     }
 }
